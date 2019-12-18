@@ -14,6 +14,51 @@ Q1/2020
 
 <!--h-->
 
+## Vorworte
+
+<!--v-->
+
+### Regeln
+
+-   **aktuellste** Vorlesungsfolien unter:
+"[leonstoldt.github.io/edv-lecture](https://leonstoldt.github.io/edv-lecture/)"
+-   Folien auch in [moodle](todo) verlinkt
+-   Pausen nach Bedarf
+-   teilt Interessen mit
+-   stellt Fragen
+
+Note:
+-   bevorzugt den Github Link (am aktuellsten)
+-   Meldet euch wenn ihr eine Pause braucht 
+-   Interessen bringe ich gerne mit ein
+-   Notfalls unterbrecht ihr mich zum Fragen
+
+<!--v-->
+
+### Vorstellung
+
+-   Leon Stoldt (21)
+-   2017: Abitur - Vincent Lübeck Gymnasium Stade
+-   Aktuell: Software Developer bei *bonprix Handelsgesellschaft mbH*
+-   Duales Studium Angewandte Informatik (B.Sc.) an der Nordakademie
+-   Kontakt: [leon-stoldt@web.de](mailto:leon-stoldt@web.de)
+
+Note:
+-   Ich bin Leon -> Wir dutzen uns
+-   Neben dem Abitur in einer Werbeagentur gearbeitet
+-   Theorie bei bonprix (in der Otto Group)
+-   Praxis an der NAK
+
+<!--v-->
+
+### kurze Vorstellungsrunde
+
+1.  Wer bist du?
+1.  In welchen Alltagssituationen spielt EDV eine Rolle?
+1.  Warum ist EDV für euren Beruf wichtig?
+
+<!--h-->
+
 ### Inhalt
 1.  Begriffsdefinitionen
 1.  Aufgabenstellung
@@ -32,10 +77,8 @@ Q1/2020
 ## EDV
 -   **E**lektronische **D**aten**v**erarbeitung
 -   Erfassung und Verarbeitung von Daten
--   elektronische Maschinen
--   alter Begriff (70 Jahre)
-
-[^1] [^2]
+-   durch elektronische Maschinen
+-   Begriff ca. 70 Jahre alt
 
 Note:
 -   elektronische Maschinen = Computer
@@ -44,26 +87,9 @@ Note:
 
 <!--v-->
 
-### Aspekte der Datenverarbeitung
--   Ein- und Ausgabe von Daten
-    -   Mensch-Maschine-Interaktion
--   Speicherung von Daten
-    -   Codierung
--   Transport von Daten
--   Manipulation von Daten
-
-[^3]
-
-Note:
--   Mensch Maschine Interaktion und Codierung betrachten wir genauer
-
-<!--v-->
-
 >   "Ich denke, dass es weltweit einen Markt für vielleicht fünf Computer gibt."
 
 *Thomas Watson (IBM-Chef) - 1943*
-
-[^4]
 
 Note:
 -   IBM - weltweit führendes Unternehmen im Bereich IT
@@ -72,17 +98,38 @@ Note:
 
 <!--v-->
 
-### darstellbare Informationen
-
--   Zahlen
--   Text
--   Programme
--   Bilder
--   Musik
--   logische Werte
--   etc.
+### Aspekte der Datenverarbeitung
+-   Ein- und Ausgabe von Daten
+    -   Mensch-Maschine-Interaktion <!-- .element: class="fragment" -->
+-   Speicherung von Daten
+    -   Codierung <!-- .element: class="fragment" -->
+-   Transport von Daten
+    -   Hardware <!-- .element: class="fragment" -->
+-   Manipulation von Daten
+    -   Software <!-- .element: class="fragment" -->
 
 Note:
+-   Wir betrachten die Aspekte oberflächlich
+-   Fragen: Idee, was hinter den Überschriften stecken könnte?
+-   Ein und Ausgabe: Bildschirm, Tastatur, Maus (geht auch ohne?)
+-   Codierung - Was ist das?
+-   Hardware - Was kennt ihr?
+-   Software - Was macht die?
+
+<!--v-->
+
+### darstellbare Daten
+
+-   🔤 Text <!-- .element: class="fragment" -->
+-   🔢 Zahlen <!-- .element: class="fragment" -->
+-   🎨 Bilder <!-- .element: class="fragment" -->
+-   🎵 Musik <!-- .element: class="fragment" -->
+-   💾 Programme <!-- .element: class="fragment" -->
+-   0️⃣1️⃣ logische Werte <!-- .element: class="fragment" -->
+-   etc. <!-- .element: class="fragment" -->
+
+Note:
+-   Welche Daten / Informationen kennt ihr?
 -   logische Werte - Wahr / Falsch
 
 <!--v-->
@@ -91,15 +138,17 @@ Note:
 
 -   **Bit:** kleinste Dateneinheit
     -   zweiwertig $\\{0,1\\}$
--   **Bitfolge:** Aneinanderreigung von Bits
+    
+-   **Bitfolge:** Aneinanderreihung von Bits 
     -   Computer verarbeiten Bitfolgen
-
+     
 -   **Byte:** Bitfolge der Länge **8**
--   $2^8 = 256$ Bitfolgen für ein Byte
+ 
+-   $2^8 = 256$ Bitfolgen für ein Byte 
 
 Note:
--   Wie viele Bitfolgen der Länge 9 ($2^9$)?
--   Wie viele der Länge 10?
+-   Wie viele Bitfolgen der Länge 9 ($2^9 = 512$)?
+-   Wie viele der Länge 10 ($2^10 = 1024$)? 
 -   Muster erkennbar? -> *2 zum Vorgänger
 -   Falls Muster nicht erkennbar -> nächste Folie zur Hilfe 
 
@@ -111,18 +160,33 @@ Note:
 |:--:|:--:|:--:|:--:|:--:|:--:|:--:|:--:|:--:|
 |...| 128 | 64 | 32 | 16 | 8 | 4 | 2 | 1 |
 
-*Beispiel Bitfolgen:*
+*Beispiel Bitfolge:* <!-- .element: class="fragment" -->
 
-0100 1110 
+0100 1110 <!-- .element: class="fragment" -->
 
 = **0** * 128 + **1** * 64 + **0** * 32 + **0** * 16 
+<!-- .element: class="fragment" --> 
 
-\+ **1** * 8 +  **1** * 4 + **1** * 2 + **0** * 1
+\+ **1** * 8 +  **1** * 4 + **1** * 2 + **0** * 1 
+<!-- .element: class="fragment" -->
 
-= 78
+= 78 <!-- .element: class="fragment" -->
 
 Note:
--   Frage: Warum geht es nicht bis $2^8$?
+-   Frage: Warum geht es nicht bis $2^8$? -> Durchzählen
+
+<!--v-->
+
+### *Exkurs:* Dezimalsystem
+
+| ... | $10^3$ | $10^2$ | $10^1$ | $10^0$ |
+|:--:|:--:|:--:|:--:|:--:|
+|...| 1000 | 100 | 10 | 1 |
+
+*Beispiel:* <!-- .element: class="fragment" -->
+
+2137 = **2** * 1000 + **1** * 100 + **3** * 10 + **7** * 1 
+<!-- .element: class="fragment" --> 
 
 <!--v-->
 
@@ -141,12 +205,14 @@ Note:
 
 Konvertiert die folgenden Zahlen ins Dualsystem bzw. Dezimalsystem:
 
+-   2
 -   113
 -   1000101110
 -   0
 -   1111111
 
 Notes:
+-   2 = 10
 -   113 = 1110001
 -   1000101110 = 558
 -   0 = 0
@@ -154,9 +220,37 @@ Notes:
 
 <!--v-->
 
+### Codierung von Daten
+
+-   Abbildung von Daten auf Bitfolgen
+-   Codierung mithilfe eines Codes
+-   Welchen Code wählen? <!-- .element: class="fragment" -->
+
+Note:
+-   Daten als menschlich verständliche Form
+-   Bitfolge ist die Computer verständliche Form
+-   Womit würdet ihr Text kodieren?
 
 <!--v-->
 
+### ASCII Codierung
+
+> "American Standard Code for Information Interchange"
+
+-   Buchstaben [52], Ziffern [10], Satzzeichen etc. kodieren
+-   Wie viele Bit werden zur Codierung benötigt?
+    <!-- .element: class="fragment" -->
+
+-   Aufgerundet: 1 Byte **pro** Zeichen
+    <!-- .element: class="fragment" -->
+
+Note:
+-   Überlegung: Was muss alles kodiert werden?
+-   Buchstaben - warum 52? -> 26 Groß, 26 Klein
+-   Ziffern -> 0-9
+-   Satzzeichen -> ". , : ! ?" > 4
+-   mind. 64 Zeichen -> $2^6 Bit$
+-   mit Erweiterungen (deutsche Umlaute, Sonderzeichen etc) -> $2^8 Bit = 1 Byte$
 
 <!--v-->
 
