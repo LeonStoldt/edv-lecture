@@ -18,20 +18,21 @@ Q1/2020
 
 <!--v-->
 
-### Regeln
+### Grundinformationen
 
 -   **aktuellste** Vorlesungsfolien unter:
 "[leonstoldt.github.io/edv-lecture](https://leonstoldt.github.io/edv-lecture/)"
 -   Folien auch in [moodle](todo) verlinkt
 -   Pausen nach Bedarf
 -   teilt Interessen mit
--   stellt Fragen
+-   **stellt Fragen**
 
 Note:
 -   bevorzugt den Github Link (am aktuellsten)
 -   Meldet euch wenn ihr eine Pause braucht 
 -   Interessen bringe ich gerne mit ein
 -   Notfalls unterbrecht ihr mich zum Fragen
+-   sagt unbedingt Bescheid, wenn jmd nicht mehr folgen kann
 
 <!--v-->
 
@@ -51,11 +52,35 @@ Note:
 
 <!--v-->
 
+#### Auszug aus meiner Arbeit
+
+[![Bonprix Service Page](images/Bonprix_Service_Page.png "Bonprix Online Shop")  <!-- .element width="43%" -->](https://www.bonprix.de/service/whatsapp-ticker/) [![Bonprix Service Page](images/Tracy_Demo.png "Bonprix Business Intelligence Tool") <!-- .element width="54%" -->](images/Tracy_Demo.png)
+
+Note: 
+-   Entwicklung und Wartung eigener Software
+-   neue Designs und Funktionen umsetzen
+-   Tracy zeigen (KPI Development - Orders Bsp.)
+-   Bonprix Online Shop und internes Business Intelligence Tool
+
+<!--v-->
+
 ### kurze Vorstellungsrunde
 
 1.  Wer bist du?
 1.  In welchen Alltagssituationen spielt EDV eine Rolle?
 1.  Warum ist EDV für euren Beruf wichtig?
+
+Note:
+-   Beispiele für Alltagssituationen:
+    -   Smartphone
+    -   Alexa / Google Home
+    -   Online-Versandhandel
+    -   Bahnticket kaufen
+-   EDV im Beruf
+    -   kaum ein Beruf ohne EDV heutzutage
+    -   Bildgebende Verfahren geben digitale Bilder
+    -   Umgang und Bewertung digitaler Bilder
+    -   Einschätzen der Reaktionen von Maschinen, mit denen gearbeitet wird 
 
 <!--h-->
 
@@ -237,12 +262,10 @@ Note:
 
 > "American Standard Code for Information Interchange"
 
--   Buchstaben [52], Ziffern [10], Satzzeichen etc. kodieren
--   Wie viele Bit werden zur Codierung benötigt?
-    <!-- .element: class="fragment" -->
+-   Buchstaben [52], Ziffern [10], Satzzeichen etc. kodieren <!-- .element: class="fragment" -->
+-   Wie viele Bit werden zur Codierung benötigt? <!-- .element: class="fragment" -->
+-   Aufgerundet: 1 Byte pro Zeichen <!-- .element: class="fragment" -->
 
--   Aufgerundet: 1 Byte **pro** Zeichen
-    <!-- .element: class="fragment" -->
 
 Note:
 -   Überlegung: Was muss alles kodiert werden?
@@ -251,6 +274,23 @@ Note:
 -   Satzzeichen -> ". , : ! ?" > 4
 -   mind. 64 Zeichen -> $2^6 Bit$
 -   mit Erweiterungen (deutsche Umlaute, Sonderzeichen etc) -> $2^8 Bit = 1 Byte$
+-   deutlich machen: Speicherplatz **pro** Zeichen
+
+<!--v-->
+
+### ASCII Tabelle
+
+[![ASCII Tabelle](images/ASCII_Table.png)](images/ASCII_Table.png)
+
+<!--v-->
+
+### Unicode
+
+-   TODO: UTF-8/16/32
+
+<!--v-->
+
+
 
 <!--v-->
 
@@ -258,11 +298,8 @@ Note:
 <!--h-->
 
 ### Quellen
--   [^1]: [Wikipedia: Elektronische Datenverarbeitung](https://de.wikipedia.org/wiki/Elektronische_Datenverarbeitung)
--   [^2]: [Chip: EDV einfach erklärt](https://praxistipps.chip.de/was-ist-edv-einfach-erklaert_41876)
--   [^3]: Räder: Technische Grundlagen der Informatik (auf Basis von :  [ISBN 3-446-21932-3](https://www.hanser-fachbuch.de/buch/Einfuehrung+in+die+Informatik/9783446219328 "Paul Levi / Ulrich Rembold - Einführung in die Informatik für Naturwissenschaftler und Ingenieure München [u.a.], Hanser, 2003 (ISBN 3-446-21932-3)"),  [ISBN 3-8273-7151-1](https://www.booklooker.de/B%C3%BCcher/Andrew-S-Tanenbaum+Computerarchitektur-Strukturen-Konzepte-Grundlagen-Gebundene-Ausgabe-von-Andrew-S/id/A02fJGWl01ZZ2 "Andrew S. Tannenbaum / James Goodman Computerarchitektur – Strukturen, Konzepte, Grundlagen München, Pearson Studium, 2005 (ISBN 3-8273-7151-1)"))
--   [^4]: [PcWelt: Fehlprognosen der IT-Geschichte](https://www.pcwelt.de/ratgeber/Die_spektakulaersten_Fehlprognosen_der_IT-Geschichte-6948150.html)
-
-
-
-<!-- .element: class="fragment" -->
+1.  [Wikipedia: Elektronische Datenverarbeitung](https://de.wikipedia.org/wiki/Elektronische_Datenverarbeitung)
+1.  [Chip: EDV einfach erklärt](https://praxistipps.chip.de/was-ist-edv-einfach-erklaert_41876)
+1.  Räder: Technische Grundlagen der Informatik (auf Basis von :  [ISBN 3-446-21932-3](https://www.hanser-fachbuch.de/buch/Einfuehrung+in+die+Informatik/9783446219328 "Paul Levi / Ulrich Rembold - Einführung in die Informatik für Naturwissenschaftler und Ingenieure München [u.a.], Hanser, 2003 (ISBN 3-446-21932-3)"),  [ISBN 3-8273-7151-1](https://www.booklooker.de/B%C3%BCcher/Andrew-S-Tanenbaum+Computerarchitektur-Strukturen-Konzepte-Grundlagen-Gebundene-Ausgabe-von-Andrew-S/id/A02fJGWl01ZZ2 "Andrew S. Tannenbaum / James Goodman Computerarchitektur – Strukturen, Konzepte, Grundlagen München, Pearson Studium, 2005 (ISBN 3-8273-7151-1)"))
+1.  [PcWelt: Fehlprognosen der IT-Geschichte](https://www.pcwelt.de/ratgeber/Die_spektakulaersten_Fehlprognosen_der_IT-Geschichte-6948150.html)
+1.  [Wikipedia: ASCII](https://de.wikipedia.org/wiki/American_Standard_Code_for_Information_Interchange)
