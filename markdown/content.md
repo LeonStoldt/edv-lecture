@@ -286,20 +286,79 @@ Note:
 
 ### Unicode
 
--   TODO: UTF-8/16/32
+-   Zeichen system- und sprachunabhängig numeriert
+-   internationaler Standard
+-   Zeichen
+    -   Latein, Arabisch, Hebräisch, Kyrillisch
+    -   Zeichenschriften (Chinesisch, Japanisch etc.)
+
+| UTF-8 | UTF-16 | UTF-32 |
+|:-----:|:------:|:------:|
+| 8 $\frac{Bit}{Zeichen}$ | 16 $\frac{Bit}{Zeichen}$ | 32 $\frac{Bit}{Zeichen}$ |
+
+Note:
+-   UTF-8 ist ASCII Codierung - reicht meistens
+-   UTF-16 **meist** 16 Zeichen - warum nicht alle? 
+-   =>häufige Buchstaben weniger
+-   Was ist der Nachteil an UTF-32? Warum wird das nicht immer verwendet?
+-   =>Faktor 4 an Speicherbedarf!
 
 <!--v-->
 
+### Codierung von Bildern
 
+Was ist ein Bild für den Computer überhaupt?
 
 <!--v-->
 
+### Rastergrafiken
+
+-   allgemein bekannte Bildform
+-   Formate: *JPEG, GIF, BMP*
+
+
+Note:
+-   Rastergrafiken aus dem Alltag bekannt
+
+<!--v-->
+
+### Beispiel Rastergrafik:
+
+[![Elbe Kliniken Logo](images/logo_elbe_kliniken.png "Logo EK Stade Buxtehude")  <!-- .element width="43%" class="fragment" -->](images/logo_elbe_kliniken.png)[![Elbe Kliniken Logo](images/logo_elbe_kliniken_zoomed.png "Logo EK Stade Buxtehude vergrößert") <!-- .element width="43%" class="fragment" -->](images/logo_elbe_kliniken_zoomed.png)
+
+<!--v-->
+
+#### Codierung von Schwarz-Weiß Bildern
+
+-   **0**: weißer Bildpunkt
+-   **1**: schwarzer Bildpunkt
+
+[![Ergebnisbild](images/SW-Bild_Codierung_Ergebnis.png) <!-- .element width="38%" -->](images/SW-Bild_Codierung_Ergebnis.png)[![SW-Bild Codierung](images/SW-Bild_Codierung.png)  <!-- .element width="20%" -->](images/SW-Bild_Codierung.png)
+<!-- .element class="fragment" -->
+
+<!--v-->
+
+#### Codierung von Grauwerten
+
+[![Codierung von Grauwerten](images/Grauwerte_Codierung.jpg) <!-- .element width="150%" -->](images/Grauwerte_Codierung.jpg)
+
+<!--v-->
+
+#### Beispiel: 8-Bit Grauwerte Codierung
+
+[![Beispiel Bild - Grauwerte](images/Grauwerte_Bsp_Codierung_Ergebnis.png) <!-- .element width="30%" -->](images/Grauwerte_Bsp_Codierung_Ergebnis.png) [![Beispiel Codierung - Grauwerte](images/Grauwerte_Bsp_Codierung.png) <!-- .element width="62%" -->](images/Grauwerte_Bsp_Codierung.png)
+
+<!--v-->
+
+### Codierung von Farbbildern
 
 <!--h-->
 
 ### Quellen
 1.  [Wikipedia: Elektronische Datenverarbeitung](https://de.wikipedia.org/wiki/Elektronische_Datenverarbeitung)
 1.  [Chip: EDV einfach erklärt](https://praxistipps.chip.de/was-ist-edv-einfach-erklaert_41876)
-1.  Räder: Technische Grundlagen der Informatik (auf Basis von :  [ISBN 3-446-21932-3](https://www.hanser-fachbuch.de/buch/Einfuehrung+in+die+Informatik/9783446219328 "Paul Levi / Ulrich Rembold - Einführung in die Informatik für Naturwissenschaftler und Ingenieure München [u.a.], Hanser, 2003 (ISBN 3-446-21932-3)"),  [ISBN 3-8273-7151-1](https://www.booklooker.de/B%C3%BCcher/Andrew-S-Tanenbaum+Computerarchitektur-Strukturen-Konzepte-Grundlagen-Gebundene-Ausgabe-von-Andrew-S/id/A02fJGWl01ZZ2 "Andrew S. Tannenbaum / James Goodman Computerarchitektur – Strukturen, Konzepte, Grundlagen München, Pearson Studium, 2005 (ISBN 3-8273-7151-1)"))
+1.  Räder: Technische Grundlagen der Informatik 1 (auf Basis von :  [ISBN 3-446-21932-3](https://www.hanser-fachbuch.de/buch/Einfuehrung+in+die+Informatik/9783446219328 "Paul Levi / Ulrich Rembold - Einführung in die Informatik für Naturwissenschaftler und Ingenieure München [u.a.], Hanser, 2003 (ISBN 3-446-21932-3)"),  [ISBN 3-8273-7151-1](https://www.booklooker.de/B%C3%BCcher/Andrew-S-Tanenbaum+Computerarchitektur-Strukturen-Konzepte-Grundlagen-Gebundene-Ausgabe-von-Andrew-S/id/A02fJGWl01ZZ2 "Andrew S. Tannenbaum / James Goodman Computerarchitektur – Strukturen, Konzepte, Grundlagen München, Pearson Studium, 2005 (ISBN 3-8273-7151-1)"))
 1.  [PcWelt: Fehlprognosen der IT-Geschichte](https://www.pcwelt.de/ratgeber/Die_spektakulaersten_Fehlprognosen_der_IT-Geschichte-6948150.html)
 1.  [Wikipedia: ASCII](https://de.wikipedia.org/wiki/American_Standard_Code_for_Information_Interchange)
+1.  [Inf-Schule: Binärdarstellung von Bildern](https://www.inf-schule.de/information/darstellunginformation/binaerdarstellungbilder/vertiefung_speicheraufwand)
+1.  [Uni-Bonn: Codierung von Grauwerten](http://www.fis.uni-bonn.de/sites/default/files/rte/BitGWr.jpg)
