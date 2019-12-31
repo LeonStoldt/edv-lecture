@@ -350,8 +350,76 @@ Note:
 
 <!--v-->
 
-### Codierung von Farbbildern
+#### Codierung von Farbbildern
 
+-   additive Farbmischung
+-   3 Kanäle (RGB) $\rightarrow$ 3 gespeicherte Werte **pro** Bildpunkt
+-   RGB = Rot Grün Blau
+-   Pro Kanal 256 Werte ($\\{0..255\\}$)
+-   knapp 17 Mio. Farben darstellbar
+
+<!--v-->
+
+[![RGB Farben](images/RGB-Farben_Schwarz.png) <!-- .element width="35%" -->](images/RGB-Farben_Schwarz.png)
+
+[![RGB Codierung](images/RGB-Farben_Codierung_Schwarz.png) <!-- .element width="80%" -->](images/RGB-Farben_Codierung_Schwarz.png)
+
+<!--v-->
+
+[![RGB Farben](images/RGB-Farben_RGB.png) <!-- .element width="35%" -->](images/RGB-Farben_RGB.png)
+
+[![RGB Codierung](images/RGB-Farben_Codierung_RGB.png) <!-- .element width="80%" -->](images/RGB-Farben_Codierung_RGB.png)
+
+<!--v-->
+
+[![RGB Farben](images/RGB-Farben_Mix.png) <!-- .element width="35%" -->](images/RGB-Farben_Mix.png)
+
+[![RGB Codierung](images/RGB-Farben_Codierung_Mix.png) <!-- .element width="80%" -->](images/RGB-Farben_Codierung_Mix.png)
+
+<!--v-->
+
+[![RGB Farben](images/RGB-Farben_Weiss.png) <!-- .element width="35%" -->](images/RGB-Farben_Weiss.png)
+
+[![RGB Codierung](images/RGB-Farben_Codierung_Weiss.png) <!-- .element width="80%" -->](images/RGB-Farben_Codierung_Weiss.png)
+
+<!--v-->
+
+### RGB Farbkreis
+
+[![RGB Kreis](images/RGB-Kreis.png) <!-- .element width="80%" -->](images/RGB-Kreis.png)
+
+<!--v-->
+
+#### Rastergrafik - Verhalten beim Zoomen
+
+|   |   |   |   |   |
+|:---:|:---:|:---:|:---:|:---:|
+| 0 |255 | 0 | 0 | 255 |
+| 0 | 255 | 255 | 0 | 0 |
+| 0 | 0 | 255 | 255 | 0 |
+| 255 | 0 | 0 | 255 | 255 |
+| 255 | 255 | 0 | 0 | 0 |
+|   |   |   |   |   |
+
+[![Beispiel Rastergrafik](images/SW-Rastergrafik.png) <!-- .element width="28%" -->](images/SW-Rastergrafik.png)
+
+<!--v-->
+
+#### Vergrößerte Grafik
+
+[![Beispiel Rastergrafik](images/SW-Rastergrafik.png) <!-- .element width="30%" -->](images/SW-Rastergrafik.png) [![Rastergrafik vergrößert](images/SW-Rastergrafik_zoomed_with_space.png) <!-- .element width="60%" -->](images/SW-Rastergrafik_zoomed_with_space.png)
+
+<!--v-->
+
+#### Aufbereitung des Computers
+
+-   Computer **versucht** Lücken zu berechnen
+-   klare Kanten verschwimmen dabei
+-   Werte der Umgebung werden vermischt
+
+[![Rastergrafik vergrößert](images/SW-Rastergrafik_zoomed_with_space.png) <!-- .element width="45%" -->](images/SW-Rastergrafik_zoomed_with_space.png) [![Rastergrafik vergrößert und berechnet](images/SW-Rastergrafik_zoomed_calculated.png) <!-- .element width="45%" -->](images/SW-Rastergrafik_zoomed_calculated.png)
+
+<!--v-->
 <!--h-->
 
 ### Quellen
@@ -362,3 +430,5 @@ Note:
 1.  [Wikipedia: ASCII](https://de.wikipedia.org/wiki/American_Standard_Code_for_Information_Interchange)
 1.  [Inf-Schule: Binärdarstellung von Bildern](https://www.inf-schule.de/information/darstellunginformation/binaerdarstellungbilder/vertiefung_speicheraufwand)
 1.  [Uni-Bonn: Codierung von Grauwerten](http://www.fis.uni-bonn.de/sites/default/files/rte/BitGWr.jpg)
+1.  [Informatikzentrum: RGB-Farbmodell](https://www.informatikzentrale.de/rgb-farbmodell.html)
+1.  [Wikipedia: Additive Farbmischung](https://de.wikipedia.org/wiki/Additive_Farbmischung)
