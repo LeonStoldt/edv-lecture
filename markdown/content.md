@@ -93,9 +93,9 @@ Note:
 
 <!--h-->
 
-### Inhalt
+## Einleitung
 
-> # TODO
+### *Was ist EDV?*
 
 <!--v-->
 
@@ -141,6 +141,56 @@ Note:
 -   Hardware - Was kennt ihr?
 -   Software - Was macht die?
 
+<!--h-->
+
+### Mensch-Maschine-Interaktion
+
+<!--v-->
+
+#### Interaktionsschnittstellen
+
+-   💻 Monitor / Bildschirm 📱 <!-- .element class="fragment" -->
+-   🖱 Maus <!-- .element class="fragment" -->
+-   ⌨ Tastatur <!-- .element class="fragment" -->
+-   🎤 Mikrofon <!-- .element class="fragment" -->
+-   🔈 Lautsprecher <!-- .element class="fragment" -->
+-   📷 Kamera <!-- .element class="fragment" -->
+-   🔴 Infrarot <!-- .element class="fragment" -->
+-   etc. <!-- .element class="fragment" -->
+
+Note:
+-   Welcher Interaktionsmöglichkeiten haben wir?
+
+<!--v-->
+
+#### Interaktionen im Alltag
+
+[![Smartphone](images/Smartphone.png)  <!-- .element width="25.5%" class="fragment" -->](https://purepng.com/public/uploads/large/purepng.com-smartphone-blackpersonal-computersmartphonemobile-operating-systemcellular-phonephilipsandroid-17015283907136ti4q.png)
+[![Tablet](images/Smart_TV.png)  <!-- .element width="36.5%" class="fragment" -->](https://xvp.akamaized.net/assets/public/vpn-software/smart-tv-vpn@2x-b17f66be14ccfd4c71ee8b5e5e305bd1c3a82032b33a3cfd0f51710a03d7f3ef.png)
+[![Home Assistenten](images/Home_Assistenten.png)  <!-- .element width="33%" class="fragment" -->](https://boobeam.com/wp-content/uploads/2018/11/googlealexa2.png)
+[![Ticket Automat](images/Ticket_Automat.png)  <!-- .element width="40%" class="fragment" -->](https://sbahn.berlin/fileadmin/_processed_/a/5/csm_ticket_machine_05d79a9bcc.png)
+[![Infotainment System](images/Infotainment.png)  <!-- .element width="37%" class="fragment" -->](https://www.autoradio-info.de/wp-content/uploads/2017/09/img_8159.png)
+[![Snack Automat](images/Snack_Automat.png)  <!-- .element width="18%" class="fragment" -->](https://www.flavura.de/shop/media/image/08/c0/4a/sielaff-s-2020-softdrop-by-flavura-verkaufsautomat-warenautomat-snackautomat-foodautomat.png)
+
+Note:
+-   Wo sind Interaktionsschnittstellen in diesen Beispielen?
+
+<!--v-->
+
+
+
+<!--v-->
+
+
+
+<!--v-->
+
+
+
+<!--h-->
+
+### Codierung - Grundlagen
+
 <!--v-->
 
 ### darstellbare Daten
@@ -155,6 +205,7 @@ Note:
 
 Note:
 -   Welche Daten / Informationen kennt ihr?
+-   Was kann man alles be- oder verarbeiten?
 -   logische Werte - Wahr / Falsch
 
 <!--v-->
@@ -303,7 +354,7 @@ Note:
 -   Was ist der Nachteil an UTF-32? Warum wird das nicht immer verwendet?
 -   =>Faktor 4 an Speicherbedarf!
 
-<!--v-->
+<!--h-->
 
 ### Codierung von Bildern
 
@@ -314,7 +365,7 @@ Was ist ein Bild für den Computer überhaupt?
 ### Rastergrafiken
 
 -   allgemein bekannte Bildform
--   Formate: *JPEG, GIF, BMP*
+-   Format Beispiele: *JPEG, GIF, BMP*
 
 
 Note:
@@ -411,13 +462,68 @@ Note:
 
 <!--v-->
 
-#### Aufbereitung des Computers
+### Interpolation
 
 -   Computer **versucht** Lücken zu berechnen
--   klare Kanten verschwimmen dabei
+-   klare Kanten verschwinden $\rightarrow$ unscharfes Bild
 -   Werte der Umgebung werden vermischt
 
 [![Rastergrafik vergrößert](images/SW-Rastergrafik_zoomed_with_space.png) <!-- .element width="45%" -->](images/SW-Rastergrafik_zoomed_with_space.png) [![Rastergrafik vergrößert und berechnet](images/SW-Rastergrafik_zoomed_calculated.png) <!-- .element width="45%" -->](images/SW-Rastergrafik_zoomed_calculated.png)
+
+<!--v-->
+
+### Vektorgrafiken
+
+-   basierend auf Vektoren / grafische Primitive
+    -   Kreis
+    -   Linie
+    -   Kurven
+-   Format Beispiel: SVG
+
+<!--v-->
+
+#### Vektorgrafik vs. Rastergrafik am Beispiel
+
+[![Vergleich Verktor- vs. Rastergrafik](images/Vergleich_Vektor-_Rastergrafik.png) <!-- .element width="70%" -->](images/Vergleich_Vektor-_Rastergrafik.png)
+
+<!--v-->
+
+#### Anwendungsbeispiele Vektorgrafiken
+
+-   Computerschriften <!-- .element class="fragment" -->
+    -   durch Vektoren abbildbar <!-- .element class="fragment" -->
+    -   benötigt nur eine Definition <!-- .element class="fragment" -->
+    -   folgend: Schriftgröße 11, 34, 72 werden berechnet <!-- .element class="fragment" -->
+-   große Druckmedien (Bsp. Beklebung eines Busses) <!-- .element class="fragment" -->
+    -   flexibler für spätere Änderungen <!-- .element class="fragment" -->
+    -   Bsp. Beklebung desselben Motivs auf ein Gebäude <!-- .element class="fragment" -->
+
+<!--v-->
+
+#### Vor- und Nachteile der Rastergrafik
+
+| Vorteile | Nachteile |
+|:---:|:---:|
+| detaillierte Bearbeitung (jedes Pixels) | leichte Verfremdung des Originals |
+| sehr gute Darstellung von komplexen Farbverläufen und Schatten | Verpixelung bei Vergrößerung |
+| | große Dateigröße bei hoher Qualität |
+
+Note:
+-   leichte Verfremdung: Bearbeitung durch z.B. Photoshop (Bsp. Model auf Magazincover)
+-   Qualität wird immer relevanter (Bsp. 4K) und Dateien dadurch immer größer
+-   Speichergröße: Speichern von Farbinformationen und Position
+-   Zur Prävention werden Komprimierungsverfahren eingesetzt (Bsp. ".jpg")
+-   ".jpg" fasst ähnlichfarbige Farbwerte zu Quadraten zusammen und speichert diese
+
+<!--v-->
+
+#### Vor- und Nachteile der Vektorgrafik
+
+| Vorteile | Nachteile |
+|:---:|:---:|
+| flexible Änderung der Größe bei gleicher Qualität | komplexe Farbverläufe und Schattierungen schwer abbildbar |
+| flexible Änderung der Farben und Formen | muss mühevoll von Hand von Raster- in Vektorgrafik überführt werden |
+| kleinere Dateigröße durch Berechnungsvorschriften |  |
 
 <!--v-->
 <!--h-->
@@ -432,3 +538,5 @@ Note:
 1.  [Uni-Bonn: Codierung von Grauwerten](http://www.fis.uni-bonn.de/sites/default/files/rte/BitGWr.jpg)
 1.  [Informatikzentrum: RGB-Farbmodell](https://www.informatikzentrale.de/rgb-farbmodell.html)
 1.  [Wikipedia: Additive Farbmischung](https://de.wikipedia.org/wiki/Additive_Farbmischung)
+1.  [Wikipedia: Vektorgrafik](https://de.wikipedia.org/wiki/Vektorgrafik)
+1.  [Langner: Pixel oder Vektor](https://www.langner-beratung.de/sites/default/files/Pixel-oder-Vektor.pdf)
