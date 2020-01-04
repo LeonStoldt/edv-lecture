@@ -165,27 +165,204 @@ Note:
 
 #### Interaktionen im Alltag
 
-[![Smartphone](images/Smartphone.png)  <!-- .element width="25.5%" class="fragment" -->](https://purepng.com/public/uploads/large/purepng.com-smartphone-blackpersonal-computersmartphonemobile-operating-systemcellular-phonephilipsandroid-17015283907136ti4q.png)
-[![Tablet](images/Smart_TV.png)  <!-- .element width="36.5%" class="fragment" -->](https://xvp.akamaized.net/assets/public/vpn-software/smart-tv-vpn@2x-b17f66be14ccfd4c71ee8b5e5e305bd1c3a82032b33a3cfd0f51710a03d7f3ef.png)
-[![Home Assistenten](images/Home_Assistenten.png)  <!-- .element width="33%" class="fragment" -->](https://boobeam.com/wp-content/uploads/2018/11/googlealexa2.png)
-[![Ticket Automat](images/Ticket_Automat.png)  <!-- .element width="40%" class="fragment" -->](https://sbahn.berlin/fileadmin/_processed_/a/5/csm_ticket_machine_05d79a9bcc.png)
-[![Infotainment System](images/Infotainment.png)  <!-- .element width="37%" class="fragment" -->](https://www.autoradio-info.de/wp-content/uploads/2017/09/img_8159.png)
-[![Snack Automat](images/Snack_Automat.png)  <!-- .element width="18%" class="fragment" -->](https://www.flavura.de/shop/media/image/08/c0/4a/sielaff-s-2020-softdrop-by-flavura-verkaufsautomat-warenautomat-snackautomat-foodautomat.png)
+[![Smartphone](images/Smartphone.png "Smartphone")  <!-- .element width="25.5%" class="fragment" -->](https://purepng.com/public/uploads/large/purepng.com-smartphone-blackpersonal-computersmartphonemobile-operating-systemcellular-phonephilipsandroid-17015283907136ti4q.png)
+[![Tablet](images/Smart_TV.png "Smart TV")  <!-- .element width="36.5%" class="fragment" -->](https://xvp.akamaized.net/assets/public/vpn-software/smart-tv-vpn@2x-b17f66be14ccfd4c71ee8b5e5e305bd1c3a82032b33a3cfd0f51710a03d7f3ef.png)
+[![Home Assistenten](images/Home_Assistenten.png "Smart Home / Home Assistent")  <!-- .element width="33%" class="fragment" -->](https://boobeam.com/wp-content/uploads/2018/11/googlealexa2.png)
+[![Ticket Automat](images/Ticket_Automat.png "Automat")  <!-- .element width="36.25%" class="fragment" -->](https://sbahn.berlin/fileadmin/_processed_/a/5/csm_ticket_machine_05d79a9bcc.png)
+[![Infotainment System](images/Infotainment.png "Infotainment System")  <!-- .element width="33.5%" class="fragment" -->](https://www.autoradio-info.de/wp-content/uploads/2017/09/img_8159.png)
+[![Smart Fridge](images/Smart_fridge.webp "Smart Fridge")  <!-- .element width="25.25%" class="fragment" -->](https://www.samsung.com/uk/refrigerators/family-hub-fridge-freezers/)
 
 Note:
 -   Wo sind Interaktionsschnittstellen in diesen Beispielen?
+-   Was haben diese Geräte gemeinsam?
+-   Verbindung zum Internet ist Standard bzw. notwendig
 
 <!--v-->
 
+### Gemeinsamer Aspekt: Internet
 
+-   Nachrichten verschicken / empfangen
+    -   E-Mail
+    -   Messenger
+    -   etc.
+-   Daten übermitteln
+    -   Online Bestellung
+    -   Registrierung
+    -   etc.
+
+Problem: **Informationen finden** <!-- .element class="fragment" -->
+    
+<!--v-->
+
+#### Suche der richtigen Informationen
+
+-   Internet $\approx$ 40 Zettabytes Daten $\approx$ 57-mal die Menge aller Sandkörner der Welt
+-   Wie findet man die richtigen Daten?
+#### $\rightarrow$ Suchmaschinen <!-- .element class="fragment" -->
+
+Note:
+-   ca. 7,5 Trillionen Sandkörner
+-   57 * 7,5 Trillionen ~ halbe Trilliarde - täglich mehr
+-   Wie viele Daten ladet ihr täglich hoch?
+-   Überlegt wie viele Daten andere täglich hochladen
 
 <!--v-->
 
+| Suchmaschine | Marktanteil |
+|:---:|:---:|
+| [![Google](images/Google_Logo.png) <!-- .element width="50%" -->](https://www.google.de/) | 95% |
+| [![Bing](images/Bing_Logo.png) <!-- .element width="30%" -->](https://www.bing.com/?cc=de) | 3% |
+| [![Yahoo!](images/Yahoo_Logo.webp) <!-- .element width="25%" -->](https://search.yahoo.com/) | 1% |
+| [![DuckDuckGo](images/DuckDuckGo_Logo.png) <!-- .element width="20%" -->](https://duckduckgo.com/) | 1% |
 
+Note:
+-   Marktanteil von Deutschland und gerundet
+-   92% weltweit
+
+<!--h-->
+
+### optimale Informationsbeschaffung
+
+am Beispiel von Google
 
 <!--v-->
 
+### Exkurs: hilfreiche Shortcuts
 
+-   **Strg + c** - markierte(n) Text/Datei kopieren
+-   **Strg + v** - markierte(n) Text/Datei einfügen
+-   **Strg + f** - Text auf einer Website suchen
+
+<!--v-->
+
+### Stichwortsuche
+
+-   wichtige Stichwörter für Google Suche filtern
+-   spart Zeit und Aufwand bei gleichen Ergebnissen
+-   Bsp. Frage: *Wie weit muss man beim Parken außerorts vom Andreaskreuz mindestens entfernt bleiben?*
+-   wichtige Keywords: <!-- .element class="fragment" -->
+    -   **Parken** <!-- .element class="fragment" -->
+    -   **Andreaskreuz** <!-- .element class="fragment" -->
+-   nicht notwendig, aber spezifizierend <!-- .element class="fragment" -->
+    -   Außerorts <!-- .element class="fragment" -->
+    -   Entfernung <!-- .element class="fragment" -->
+
+Note:
+-   Google sucht nach einzelnen Wörtern, nicht Sätze
+-   Reihenfolge der Wörter ist Google egal
+
+<!--v-->
+
+### verwandte Seiten finden
+
+-   Stichwort **related:**
+-   Bsp. [google.com](https://www.google.com/search?q=google.com&oq=google.com)
+-   mit Stichwort: [related:google.com](https://www.google.com/search?q=related%3Agoogle.com&oq=related%3Agoogle.com)
+
+<!--v-->
+
+### Wörter ausschließen
+
+-   Wörter mit Bindestrich ausschließen
+-   Bsp: [Jaguar](https://www.google.com/search?hl=de&q=Jaguar&oq=Jaguar) *(Tier)*
+-   mit Ausschluss: [Jaguar -auto -cars](https://www.google.com/search?hl=de&q=Jaguar+-auto+-cars&oq=Jaguar+-auto+-cars)
+
+Note: 
+-   Wichtig: Kein Leerzeichen
+-   Alternative zum Beispiel: Google Suche "Jaguar Tier"
+
+<!--v-->
+
+### Zitate suchen
+
+-   genaue Wortkombination suchen mit **" "**
+-   Bsp. [Hoping that you'll understand](https://www.google.com/search?q=Hoping+that+you%27ll+understand&oq=Hoping+that+you%27ll+understand)
+-   mit Zitatsuche: ["Hoping that you'll understand"](https://www.google.com/search?q=%22Hoping+that+you%27ll+understand%22&oq=%22Hoping+that+you%27ll+understand%22)
+-   zusätzlich unbekanntes Wort: ["Hoping * you'll understand"](https://www.google.com/search?q=%22Hoping+*+you%27ll+understand%22&oq=%22Hoping+*+you%27ll+understand%22)
+
+Note:
+-   Ed Sheeran - Thinking Out Loud vs. Strangers
+-   https://www.songtexte.de/songtexte/ed-sheeran-thinking-out-loud-9960783.html
+
+<!--v-->
+
+### Dateiformatsuche
+
+-   Google Ergebnisse nach Dateiformaten filtern
+-   Bsp. [mtra](https://www.google.com/search?q=mtra&oq=mtra)
+-   mit Formatfilterung: [mtra filetype:pdf](https://www.google.com/search?q=mtra+filetype%3Apdf&oq=mtra+filetype%3Apdf)
+
+Note:
+-   besonders Praktisch für schulische- bzw. wissenschaftliche Nachforschungen
+
+<!--v-->
+
+### Bildersuche
+
+-   Bild in die Suchleiste ziehen *oder*
+-   Rechtsklick + "*Mit Google nach Bild suchen*"
+-   Bsp. [Elbe Kliniken Logo](https://www.google.com/search?q=elbe+klinikum+stade+logo&tbm=isch)
+-   mit Bildersuche: [Elbe Kliniken Logo Bildersuche](https://www.google.com/search?tbs=sbi:AMhZZitG27Gq4-W5juf08KOk1ulvP9RNITHCV160l_1PsPVv0xRM0MGsx8CYFgqf2EP22lp-xm6Pv4ovtogyyMoe9bpwRaA4fxnFcqvchXgnWq2oSe-wVHVaMUef0w-JqSv-ECUEwecd7_1FRF14zS_1ibd6lu5oQTaHvAGHUqOaXQJbx2gQx1rGajJ_1gefpDsnuAZd28L3ABfVkCR9O5In1wr24duh-4KPEH4K3wMoz5_1iyIo3xvPH3hnp9o_1Tmqg8PZ4LFHnLG37qS-mk8irDDoy1tDeWXjn_1ismE906TQBPUdQ38P4OQ2SzO3kFLrSUiS8iCNxQnRu5C)
+-   [gleiches Bild mit verschiedenen Größen](https://www.google.com/search?q=elbe+klinikum+stade+logo&tbm=isch&tbs=simg:CAQSkwEJBH7TIt_1JqJEahwELEKjU2AQaAAwLELCMpwgaYgpgCAMSKIEKhQOxCJgG9gOCCrII4gG_1A5oUvSi1Pbw_1mzS0K5Y9oDSdNJg3tD0aMCOTQwQIBpTweyivRIcIOmA_18cANgy-T4Y7Kp4I3wsRF6mw1MlQ_1xc35dYP18MwQBCAEDAsQjq7-CBoKCggIARIEbmqbYww) oder [optisch ähnliche Bilder](https://www.google.com/search?tbs=simg:CAEStAIJBH7TIt_1JqJEaqAILELCMpwgaYgpgCAMSKIEKhQOxCJgG9gOCCrII4gG_1A5oUvSi1Pbw_1mzS0K5Y9oDSdNJg3tD0aMCOTQwQIBpTweyivRIcIOmA_18cANgy-T4Y7Kp4I3wsRF6mw1MlQ_1xc35dYP18MwQBCAEDAsQjq7-CBoKCggIARIEbmqbYwwLEJ3twQkaoAEKIAoOZ3JhcGhpYyBkZXNpZ27apYj2AwoKCC9tLzAzYzMxChsKCHBhcmFsbGVs2qWI9gMLCgkvbS8wMzB6Zm4KGwoIZ3JhcGhpY3PapYj2AwsKCS9tLzAyMXNkZwoiCg5tYWpvcmVsbGUgYmx1ZdqliPYDDAoKL20vMDRnbms3bQoeCgtjb2JhbHQgYmx1ZdqliPYDCwoJL20vMDRmNjJ6DA&q=elbe+klinikum+stade+logo&tbm=isch)
+
+<!--v-->
+
+### Ergebnisse einer bestimmten Seite filtern
+
+-   Stichwort: **site:**
+-   Bsp. [mtra](https://www.google.com/search?q=mtra&oq=mtra)
+-   nach Elbe Kliniken gefiltert [mtra der Elbe Kliniken](https://www.google.com/search?q=mtra+site%3Aelbekliniken.de&oq=mtra+site%3Aelbekliniken.de)
+
+Note:
+-   4 480 000 Ergebnisse zu 74 reduziert
+
+<!--v-->
+
+## Quiz
+
+-   In zwei Gruppen aufteilen
+-   Wer zuerst das korrekte Ergebnis nennt, bekommt die Punkte für die Gruppe
+-   Punktezahl steht vor der Frage
+-   Falsche Antworten geben einen Punkt für die andere Gruppe und die Möglichkeit die Punkte mit einer korrekten Antwort zu erlangen
+
+<!--v-->
+
+#### Fragen
+
+-   (1) Welches Bundesland hatte 2016 den schlechtesten Abi-Schnitt? <!-- .element class="fragment" -->
+-   (2) Wie viele Suchergebnisse liefert Google zum Thema Michael Jordan, jedoch ohne Einträge des Themas "Basketball"? <!-- .element class="fragment" --> 
+-   (3) Wie viele Suchergebnisse bzw. Einträge liefert Google insgesamt für die offizielle Website der Elbe-Kliniken? <!-- .element class="fragment" --> 
+
+Note:
+-   *abitur 2016 bundesland schnitt* - Niedersachsen
+-   *site:elbekliniken.de* - ca. 1 200 Ergebnisse
+-   *michael jordan -basketball* - 465 000 000 Ergebnisse
+
+<!--v-->
+
+#### Fragen
+
+-   (4) An welchem Wochentag ist Greta Thunberg geboren? <!-- .element class="fragment" --> 
+-   (5) Von wem ist das folgende Zitat: "The life you have left is _ _. Cherish it." <!-- .element class="fragment" -->
+-   (6) Wie heißt die zweitgrößte Stadt des Staats in dem der 44. Präsident der USA geboren wurde? <!-- .element class="fragment" -->
+-   (7) Wie viele Logos des Bildformats "SVG" existieren auf der Seite bonprix.de? <!-- .element class="fragment" -->
+
+Note:
+-   *geburtstag greta thunberg* und *wochentag 3. Januar 2003* - Freitag
+-   _ sind Platzhalter für je ein Wort - Zitat von Leo Babauta
+-   *44 us präsident* und *geburtsort Barack Obama* und *hawaii* - zweitgrößte Stadt Hawaiis: Pearl City (CDPs wie East Honululu zählt nicht)  
+-   *logo site:bonprix.de filetype:svg* - 2 Logos (Google Play und Dynatrace)
+
+<!--v-->
+
+### Zusatzfrage
+
+-   (10) Wie viele Verkehrsschilder der Gefahrzeichen nach §40 StVO beinhalten die Farbe, deren Hex-Code im Dezimalsystem der Zahl 16 776 960 entspricht? <!-- .element class="fragment" -->
+
+Note:
+-   *dezimal to hex*: FFFF00
+-   *color FFFF00*: neutralgelb
+-   *gefahrzeichen*: Lichtzeichenanalyse (1 Verkehrszeichen)
 
 <!--h-->
 
@@ -353,6 +530,12 @@ Note:
 -   =>häufige Buchstaben weniger
 -   Was ist der Nachteil an UTF-32? Warum wird das nicht immer verwendet?
 -   =>Faktor 4 an Speicherbedarf!
+
+<!--v-->
+
+### Speicher KB, MB, GB, TB
+
+> # TODO
 
 <!--h-->
 
@@ -525,7 +708,6 @@ Note:
 | flexible Änderung der Farben und Formen | muss mühevoll von Hand von Raster- in Vektorgrafik überführt werden |
 | kleinere Dateigröße durch Berechnungsvorschriften |  |
 
-<!--v-->
 <!--h-->
 
 ### Quellen
@@ -533,10 +715,16 @@ Note:
 1.  [Chip: EDV einfach erklärt](https://praxistipps.chip.de/was-ist-edv-einfach-erklaert_41876)
 1.  Räder: Technische Grundlagen der Informatik 1 (auf Basis von :  [ISBN 3-446-21932-3](https://www.hanser-fachbuch.de/buch/Einfuehrung+in+die+Informatik/9783446219328 "Paul Levi / Ulrich Rembold - Einführung in die Informatik für Naturwissenschaftler und Ingenieure München [u.a.], Hanser, 2003 (ISBN 3-446-21932-3)"),  [ISBN 3-8273-7151-1](https://www.booklooker.de/B%C3%BCcher/Andrew-S-Tanenbaum+Computerarchitektur-Strukturen-Konzepte-Grundlagen-Gebundene-Ausgabe-von-Andrew-S/id/A02fJGWl01ZZ2 "Andrew S. Tannenbaum / James Goodman Computerarchitektur – Strukturen, Konzepte, Grundlagen München, Pearson Studium, 2005 (ISBN 3-8273-7151-1)"))
 1.  [PcWelt: Fehlprognosen der IT-Geschichte](https://www.pcwelt.de/ratgeber/Die_spektakulaersten_Fehlprognosen_der_IT-Geschichte-6948150.html)
+<!--v-->
 1.  [Wikipedia: ASCII](https://de.wikipedia.org/wiki/American_Standard_Code_for_Information_Interchange)
 1.  [Inf-Schule: Binärdarstellung von Bildern](https://www.inf-schule.de/information/darstellunginformation/binaerdarstellungbilder/vertiefung_speicheraufwand)
 1.  [Uni-Bonn: Codierung von Grauwerten](http://www.fis.uni-bonn.de/sites/default/files/rte/BitGWr.jpg)
 1.  [Informatikzentrum: RGB-Farbmodell](https://www.informatikzentrale.de/rgb-farbmodell.html)
 1.  [Wikipedia: Additive Farbmischung](https://de.wikipedia.org/wiki/Additive_Farbmischung)
+<!--v-->
 1.  [Wikipedia: Vektorgrafik](https://de.wikipedia.org/wiki/Vektorgrafik)
 1.  [Langner: Pixel oder Vektor](https://www.langner-beratung.de/sites/default/files/Pixel-oder-Vektor.pdf)
+1.  [Welt: Datenvolumen verdoppeln sich](https://www.welt.de/wirtschaft/webwelt/article118099520/Datenvolumen-verdoppelt-sich-alle-zwei-Jahre.html)
+1.  [Indexlift: Suchmaschinen 2019](https://www.indexlift.com/de/blog/marktanteile-suchmaschinen-weltweit-2019)
+1.  [Google: Websuche optimieren](](https://support.google.com/websearch/answer/2466433?hl=de))
+<!--v-->
