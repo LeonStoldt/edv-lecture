@@ -723,6 +723,25 @@ Note:
 
 ### Hardware
 
+<!--v-->
+
+### Komponenten eines Computers
+
+- Speicher <!-- .element class="fragment" -->
+ - Arbeitsspeicher (RAM) <!-- .element class="fragment" -->
+ - Cache <!-- .element class="fragment" -->
+ - Festplatten <!-- .element class="fragment" -->
+- Software <!-- .element class="fragment" -->
+ - Betriebssystem <!-- .element class="fragment" -->
+- Kommunikationswege <!-- .element class="fragment" -->
+ - Bus Systen <!-- .element class="fragment" -->
+- BIOS <!-- .element class="fragment" -->
+- Prozessor <!-- .element class="fragment" -->
+
+
+
+<!--v-->
+
 <!--h-->
 
 ### Quellen
