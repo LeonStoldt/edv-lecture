@@ -533,9 +533,20 @@ Note:
 
 <!--v-->
 
-### Speicher KB, MB, GB, TB
+### Speicher
 
-> # TODO
+| Einheit | Bits |
+|:---:|:---:|
+| Byte | 8 |
+| KiloByte | $1024 * 8$ (1024 Bytes)|
+| MegaByte | $1024 * (1024 * 8)$ (1024 KB)|
+| GigaByte | $1024 * (1024 * 1024 * 8)$ (1024 MB)|
+| TeraByte | $1024 * (1024 * 1024 * 1024 * 8)$ (1024 GB)|
+| ... | $1024 * (... * 8)$ |
+
+Note:
+- Warum 1024? - $2^10 = 1024$
+- Eigentlich KiBiBytes, da 1024 statt 1000 (Kilo eingebürgert)
 
 <!--h-->
 
@@ -707,6 +718,10 @@ Note:
 | flexible Änderung der Größe bei gleicher Qualität | komplexe Farbverläufe und Schattierungen schwer abbildbar |
 | flexible Änderung der Farben und Formen | muss mühevoll von Hand von Raster- in Vektorgrafik überführt werden |
 | kleinere Dateigröße durch Berechnungsvorschriften |  |
+
+<!--h-->
+
+### Hardware
 
 <!--h-->
 
