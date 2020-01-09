@@ -760,5 +760,6 @@ Note:
 1.  [Langner: Pixel oder Vektor](https://www.langner-beratung.de/sites/default/files/Pixel-oder-Vektor.pdf)
 1.  [Welt: Datenvolumen verdoppeln sich](https://www.welt.de/wirtschaft/webwelt/article118099520/Datenvolumen-verdoppelt-sich-alle-zwei-Jahre.html)
 1.  [Indexlift: Suchmaschinen 2019](https://www.indexlift.com/de/blog/marktanteile-suchmaschinen-weltweit-2019)
-1.  [Google: Websuche optimieren](](https://support.google.com/websearch/answer/2466433?hl=de))
+1.  [Google: Websuche optimieren](https://support.google.com/websearch/answer/2466433?hl=de)
+1.  [Gabler: Mernsch-Maschine-Interaktion](https://wirtschaftslexikon.gabler.de/definition/mensch-maschine-interaktion-54079)
 <!--v-->
