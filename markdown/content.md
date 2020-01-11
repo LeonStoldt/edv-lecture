@@ -545,8 +545,8 @@ Note:
 | ... | $1024 * (... * 8)$ |
 
 Note:
-- Warum 1024? - $2^10 = 1024$
-- Eigentlich KiBiBytes, da 1024 statt 1000 (Kilo eingebürgert)
+-   Warum 1024? - $2^10 = 1024$
+-   Eigentlich KiBiBytes, da 1024 statt 1000 (Kilo eingebürgert)
 
 <!--h-->
 
@@ -727,16 +727,16 @@ Note:
 
 ### Komponenten eines Computers
 
-- Speicher <!-- .element class="fragment" -->
- - Arbeitsspeicher (RAM) <!-- .element class="fragment" -->
- - Cache <!-- .element class="fragment" -->
- - Festplatten <!-- .element class="fragment" -->
-- Software <!-- .element class="fragment" -->
- - Betriebssystem <!-- .element class="fragment" -->
-- Kommunikationswege <!-- .element class="fragment" -->
- - Bus Systen <!-- .element class="fragment" -->
-- BIOS <!-- .element class="fragment" -->
-- Prozessor <!-- .element class="fragment" -->
+-   Speicher <!-- .element class="fragment" -->
+ -  Arbeitsspeicher (RAM) <!-- .element class="fragment" -->
+ -  Cache <!-- .element class="fragment" -->
+ -  Festplatten <!-- .element class="fragment" -->
+-   Software <!-- .element class="fragment" -->
+ -  Betriebssystem <!-- .element class="fragment" -->
+-   Kommunikationswege <!-- .element class="fragment" -->
+ -  Bus Systen <!-- .element class="fragment" -->
+-   BIOS <!-- .element class="fragment" -->
+-   Prozessor <!-- .element class="fragment" -->
 
 
 
