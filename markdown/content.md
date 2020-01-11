@@ -533,9 +533,20 @@ Note:
 
 <!--v-->
 
-### Speicher KB, MB, GB, TB
+### Speicher
 
-> # TODO
+| Einheit | Bits |
+|:---:|:---:|
+| Byte | 8 |
+| KiloByte | $1024 * 8$ (1024 Bytes)|
+| MegaByte | $1024 * (1024 * 8)$ (1024 KB)|
+| GigaByte | $1024 * (1024 * 1024 * 8)$ (1024 MB)|
+| TeraByte | $1024 * (1024 * 1024 * 1024 * 8)$ (1024 GB)|
+| ... | $1024 * (... * 8)$ |
+
+Note:
+-   Warum 1024? - $2^10 = 1024$
+-   Eigentlich KiBiBytes, da 1024 statt 1000 (Kilo eingebürgert)
 
 <!--h-->
 
@@ -710,6 +721,29 @@ Note:
 
 <!--h-->
 
+### Hardware
+
+<!--v-->
+
+### Komponenten eines Computers
+
+-   Speicher <!-- .element class="fragment" -->
+ -  Arbeitsspeicher (RAM) <!-- .element class="fragment" -->
+ -  Cache <!-- .element class="fragment" -->
+ -  Festplatten <!-- .element class="fragment" -->
+-   Software <!-- .element class="fragment" -->
+ -  Betriebssystem <!-- .element class="fragment" -->
+-   Kommunikationswege <!-- .element class="fragment" -->
+ -  Bus Systen <!-- .element class="fragment" -->
+-   BIOS <!-- .element class="fragment" -->
+-   Prozessor <!-- .element class="fragment" -->
+
+
+
+<!--v-->
+
+<!--h-->
+
 ### Quellen
 1.  [Wikipedia: Elektronische Datenverarbeitung](https://de.wikipedia.org/wiki/Elektronische_Datenverarbeitung)
 1.  [Chip: EDV einfach erklärt](https://praxistipps.chip.de/was-ist-edv-einfach-erklaert_41876)
@@ -726,5 +760,6 @@ Note:
 1.  [Langner: Pixel oder Vektor](https://www.langner-beratung.de/sites/default/files/Pixel-oder-Vektor.pdf)
 1.  [Welt: Datenvolumen verdoppeln sich](https://www.welt.de/wirtschaft/webwelt/article118099520/Datenvolumen-verdoppelt-sich-alle-zwei-Jahre.html)
 1.  [Indexlift: Suchmaschinen 2019](https://www.indexlift.com/de/blog/marktanteile-suchmaschinen-weltweit-2019)
-1.  [Google: Websuche optimieren](](https://support.google.com/websearch/answer/2466433?hl=de))
+1.  [Google: Websuche optimieren](https://support.google.com/websearch/answer/2466433?hl=de)
+1.  [Gabler: Mernsch-Maschine-Interaktion](https://wirtschaftslexikon.gabler.de/definition/mensch-maschine-interaktion-54079)
 <!--v-->
