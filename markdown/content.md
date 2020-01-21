@@ -42,7 +42,7 @@ Note:
 -   2017: Abitur - Vincent Lübeck Gymnasium Stade
 -   Aktuell: Software Developer bei *bonprix Handelsgesellschaft mbH*
 -   Duales Studium Angewandte Informatik (B.Sc.) an der Nordakademie
--   Kontakt: [leon-stoldt@web.de](mailto:leon-stoldt@web.de)
+-   Kontakt: [leon.stoldt@nordakademie.de](mailto:leon.stoldt@nordakademie.de)
 
 Note:
 -   Ich bin Leon -> Wir dutzen uns
@@ -377,7 +377,7 @@ Note:
 -   🎨 Bilder <!-- .element: class="fragment" -->
 -   🎵 Musik <!-- .element: class="fragment" -->
 -   💾 Programme <!-- .element: class="fragment" -->
--   0️⃣1️⃣ logische Werte <!-- .element: class="fragment" -->
+-   logische Werte <!-- .element: class="fragment" -->
 -   etc. <!-- .element: class="fragment" -->
 
 Note:
@@ -533,7 +533,7 @@ Note:
 
 <!--v-->
 
-### Speicher
+#### Speicher
 
 | Einheit | Bits |
 |:---:|:---:|
@@ -605,25 +605,25 @@ Note:
 
 <!--v-->
 
-[![RGB Farben](images/RGB-Farben_Schwarz.png) <!-- .element width="35%" -->](images/RGB-Farben_Schwarz.png)
+[![RGB Farben](images/RGB-Farben_Schwarz.png) <!-- .element width="30%" -->](images/RGB-Farben_Schwarz.png)
 
 [![RGB Codierung](images/RGB-Farben_Codierung_Schwarz.png) <!-- .element width="80%" -->](images/RGB-Farben_Codierung_Schwarz.png)
 
 <!--v-->
 
-[![RGB Farben](images/RGB-Farben_RGB.png) <!-- .element width="35%" -->](images/RGB-Farben_RGB.png)
+[![RGB Farben](images/RGB-Farben_RGB.png) <!-- .element width="30%" -->](images/RGB-Farben_RGB.png)
 
 [![RGB Codierung](images/RGB-Farben_Codierung_RGB.png) <!-- .element width="80%" -->](images/RGB-Farben_Codierung_RGB.png)
 
 <!--v-->
 
-[![RGB Farben](images/RGB-Farben_Mix.png) <!-- .element width="35%" -->](images/RGB-Farben_Mix.png)
+[![RGB Farben](images/RGB-Farben_Mix.png) <!-- .element width="30%" -->](images/RGB-Farben_Mix.png)
 
 [![RGB Codierung](images/RGB-Farben_Codierung_Mix.png) <!-- .element width="80%" -->](images/RGB-Farben_Codierung_Mix.png)
 
 <!--v-->
 
-[![RGB Farben](images/RGB-Farben_Weiss.png) <!-- .element width="35%" -->](images/RGB-Farben_Weiss.png)
+[![RGB Farben](images/RGB-Farben_Weiss.png) <!-- .element width="30%" -->](images/RGB-Farben_Weiss.png)
 
 [![RGB Codierung](images/RGB-Farben_Codierung_Weiss.png) <!-- .element width="80%" -->](images/RGB-Farben_Codierung_Weiss.png)
 
@@ -646,13 +646,13 @@ Note:
 | 255 | 255 | 0 | 0 | 0 |
 |   |   |   |   |   |
 
-[![Beispiel Rastergrafik](images/SW-Rastergrafik.png) <!-- .element width="28%" -->](images/SW-Rastergrafik.png)
+[![Beispiel Rastergrafik](images/SW-Rastergrafik.png) <!-- .element width="20%" -->](images/SW-Rastergrafik.png)
 
 <!--v-->
 
 #### Vergrößerte Grafik
 
-[![Beispiel Rastergrafik](images/SW-Rastergrafik.png) <!-- .element width="30%" -->](images/SW-Rastergrafik.png) [![Rastergrafik vergrößert](images/SW-Rastergrafik_zoomed_with_space.png) <!-- .element width="60%" -->](images/SW-Rastergrafik_zoomed_with_space.png)
+[![Beispiel Rastergrafik](images/SW-Rastergrafik.png) <!-- .element width="25%" -->](images/SW-Rastergrafik.png) [![Rastergrafik vergrößert](images/SW-Rastergrafik_zoomed_with_space.png) <!-- .element width="55%" -->](images/SW-Rastergrafik_zoomed_with_space.png)
 
 <!--v-->
 
@@ -662,7 +662,7 @@ Note:
 -   klare Kanten verschwinden $\rightarrow$ unscharfes Bild
 -   Werte der Umgebung werden vermischt
 
-[![Rastergrafik vergrößert](images/SW-Rastergrafik_zoomed_with_space.png) <!-- .element width="45%" -->](images/SW-Rastergrafik_zoomed_with_space.png) [![Rastergrafik vergrößert und berechnet](images/SW-Rastergrafik_zoomed_calculated.png) <!-- .element width="45%" -->](images/SW-Rastergrafik_zoomed_calculated.png)
+[![Rastergrafik vergrößert](images/SW-Rastergrafik_zoomed_with_space.png) <!-- .element width="35%" -->](images/SW-Rastergrafik_zoomed_with_space.png) [![Rastergrafik vergrößert und berechnet](images/SW-Rastergrafik_zoomed_calculated.png) <!-- .element width="35%" -->](images/SW-Rastergrafik_zoomed_calculated.png)
 
 <!--v-->
 
@@ -678,7 +678,7 @@ Note:
 
 #### Vektorgrafik vs. Rastergrafik am Beispiel
 
-[![Vergleich Verktor- vs. Rastergrafik](images/Vergleich_Vektor-_Rastergrafik.png) <!-- .element width="70%" -->](images/Vergleich_Vektor-_Rastergrafik.png)
+[![Vergleich Verktor- vs. Rastergrafik](images/Vergleich_Vektor-_Rastergrafik.png) <!-- .element width="60%" -->](images/Vergleich_Vektor-_Rastergrafik.png)
 
 <!--v-->
 
@@ -687,7 +687,7 @@ Note:
 -   Computerschriften <!-- .element class="fragment" -->
     -   durch Vektoren abbildbar <!-- .element class="fragment" -->
     -   benötigt nur eine Definition <!-- .element class="fragment" -->
-    -   folgend: Schriftgröße 11, 34, 72 werden berechnet <!-- .element class="fragment" -->
+    -   z.B. Schriftgrößen werden berechnet <!-- .element class="fragment" -->
 -   große Druckmedien (Bsp. Beklebung eines Busses) <!-- .element class="fragment" -->
     -   flexibler für spätere Änderungen <!-- .element class="fragment" -->
     -   Bsp. Beklebung desselben Motivs auf ein Gebäude <!-- .element class="fragment" -->
@@ -715,8 +715,8 @@ Note:
 
 | Vorteile | Nachteile |
 |:---:|:---:|
-| flexible Änderung der Größe bei gleicher Qualität | komplexe Farbverläufe und Schattierungen schwer abbildbar |
-| flexible Änderung der Farben und Formen | muss mühevoll von Hand von Raster- in Vektorgrafik überführt werden |
+| flexible Änderung der Größe bei gleicher Qualität | Farbverläufe / Schattierungen schwer abbildbar |
+| flexible Änderung der Farben und Formen | mühevolle Überführung von Raster- in Vektorgrafik |
 | kleinere Dateigröße durch Berechnungsvorschriften |  |
 
 <!--h-->
@@ -745,21 +745,31 @@ Note:
 <!--h-->
 
 ### Quellen
-1.  [Wikipedia: Elektronische Datenverarbeitung](https://de.wikipedia.org/wiki/Elektronische_Datenverarbeitung)
-1.  [Chip: EDV einfach erklärt](https://praxistipps.chip.de/was-ist-edv-einfach-erklaert_41876)
-1.  Räder: Technische Grundlagen der Informatik 1 (auf Basis von :  [ISBN 3-446-21932-3](https://www.hanser-fachbuch.de/buch/Einfuehrung+in+die+Informatik/9783446219328 "Paul Levi / Ulrich Rembold - Einführung in die Informatik für Naturwissenschaftler und Ingenieure München [u.a.], Hanser, 2003 (ISBN 3-446-21932-3)"),  [ISBN 3-8273-7151-1](https://www.booklooker.de/B%C3%BCcher/Andrew-S-Tanenbaum+Computerarchitektur-Strukturen-Konzepte-Grundlagen-Gebundene-Ausgabe-von-Andrew-S/id/A02fJGWl01ZZ2 "Andrew S. Tannenbaum / James Goodman Computerarchitektur – Strukturen, Konzepte, Grundlagen München, Pearson Studium, 2005 (ISBN 3-8273-7151-1)"))
-1.  [PcWelt: Fehlprognosen der IT-Geschichte](https://www.pcwelt.de/ratgeber/Die_spektakulaersten_Fehlprognosen_der_IT-Geschichte-6948150.html)
+-  [Wikipedia: Elektronische Datenverarbeitung](https://de.wikipedia.org/wiki/Elektronische_Datenverarbeitung)
+-  [Chip: EDV einfach erklärt](https://praxistipps.chip.de/was-ist-edv-einfach-erklaert_41876)
+-  Räder: Technische Grundlagen der Informatik 1 (auf Basis von :  [ISBN 3-446-21932-3](https://www.hanser-fachbuch.de/buch/Einfuehrung+in+die+Informatik/9783446219328 "Paul Levi / Ulrich Rembold - Einführung in die Informatik für Naturwissenschaftler und Ingenieure München [u.a.], Hanser, 2003 (ISBN 3-446-21932-3)"),  [ISBN 3-8273-7151-1](https://www.booklooker.de/B%C3%BCcher/Andrew-S-Tanenbaum+Computerarchitektur-Strukturen-Konzepte-Grundlagen-Gebundene-Ausgabe-von-Andrew-S/id/A02fJGWl01ZZ2 "Andrew S. Tannenbaum / James Goodman Computerarchitektur – Strukturen, Konzepte, Grundlagen München, Pearson Studium, 2005 (ISBN 3-8273-7151-1)"))
+-  [PcWelt: Fehlprognosen der IT-Geschichte](https://www.pcwelt.de/ratgeber/Die_spektakulaersten_Fehlprognosen_der_IT-Geschichte-6948150.html)
 <!--v-->
-1.  [Wikipedia: ASCII](https://de.wikipedia.org/wiki/American_Standard_Code_for_Information_Interchange)
-1.  [Inf-Schule: Binärdarstellung von Bildern](https://www.inf-schule.de/information/darstellunginformation/binaerdarstellungbilder/vertiefung_speicheraufwand)
-1.  [Uni-Bonn: Codierung von Grauwerten](http://www.fis.uni-bonn.de/sites/default/files/rte/BitGWr.jpg)
-1.  [Informatikzentrum: RGB-Farbmodell](https://www.informatikzentrale.de/rgb-farbmodell.html)
-1.  [Wikipedia: Additive Farbmischung](https://de.wikipedia.org/wiki/Additive_Farbmischung)
+-  [Wikipedia: ASCII](https://de.wikipedia.org/wiki/American_Standard_Code_for_Information_Interchange)
+-  [Inf-Schule: Binärdarstellung von Bildern](https://www.inf-schule.de/information/darstellunginformation/binaerdarstellungbilder/vertiefung_speicheraufwand)
+-  [Uni-Bonn: Codierung von Grauwerten](http://www.fis.uni-bonn.de/sites/default/files/rte/BitGWr.jpg)
+-  [Informatikzentrum: RGB-Farbmodell](https://www.informatikzentrale.de/rgb-farbmodell.html)
+-  [Wikipedia: Additive Farbmischung](https://de.wikipedia.org/wiki/Additive_Farbmischung)
 <!--v-->
-1.  [Wikipedia: Vektorgrafik](https://de.wikipedia.org/wiki/Vektorgrafik)
-1.  [Langner: Pixel oder Vektor](https://www.langner-beratung.de/sites/default/files/Pixel-oder-Vektor.pdf)
-1.  [Welt: Datenvolumen verdoppeln sich](https://www.welt.de/wirtschaft/webwelt/article118099520/Datenvolumen-verdoppelt-sich-alle-zwei-Jahre.html)
-1.  [Indexlift: Suchmaschinen 2019](https://www.indexlift.com/de/blog/marktanteile-suchmaschinen-weltweit-2019)
-1.  [Google: Websuche optimieren](https://support.google.com/websearch/answer/2466433?hl=de)
-1.  [Gabler: Mernsch-Maschine-Interaktion](https://wirtschaftslexikon.gabler.de/definition/mensch-maschine-interaktion-54079)
+-  [Wikipedia: Vektorgrafik](https://de.wikipedia.org/wiki/Vektorgrafik)
+-  [Langner: Pixel oder Vektor](https://www.langner-beratung.de/sites/default/files/Pixel-oder-Vektor.pdf)
+-  [Welt: Datenvolumen verdoppeln sich](https://www.welt.de/wirtschaft/webwelt/article118099520/Datenvolumen-verdoppelt-sich-alle-zwei-Jahre.html)
+-  [Indexlift: Suchmaschinen 2019](https://www.indexlift.com/de/blog/marktanteile-suchmaschinen-weltweit-2019)
+-  [Google: Websuche optimieren](https://support.google.com/websearch/answer/2466433?hl=de)
+-  [Gabler: Mernsch-Maschine-Interaktion](https://wirtschaftslexikon.gabler.de/definition/mensch-maschine-interaktion-54079)
+
 <!--v-->
+
+#### rechtliche Informationen
+
+> Copyright © 2020 by Leon Stoldt
+><!-- .element style="font-size:0.7em" -->
+> All rights reserved. No part of this publication may be reproduced, distributed, or transmitted in any form or by any means, including photocopying, recording, or other electronic or mechanical methods, without the prior written permission of the publisher, except in the case of brief quotations embodied in critical reviews and certain other noncommercial uses permitted by copyright law. For permission requests, write to the [publisher](https://www.xing.com/profile/Leon_Stoldt).
+><!-- .element style="font-size:0.7em" -->
+
+-   [Systeminformation icon](https://icons8.de/icons/set/system-information) icon by [Icons8](https://icons8.de)
