@@ -93,6 +93,98 @@ Note:
 
 <!--h-->
 
+## Excel
+
+<!--v-->
+
+#### Allgemeine Begriffsklärung
+
+-   Buchstaben stellen **Spalten** dar
+-   Zahlen stellen **Zeilen** dar
+-   Die Kombination stellt eine **Zelle** dar *(Bsp: A16)*
+
+<!--v-->
+
+#### Formatierung von Zahlen
+
+-   Buchhaltungsformate *(€, $, Datum, % etc.)*
+-   Dezimalstellen hinzufügen / entfernen
+-   Trennzeichen ändern
+
+*Aufgabe:* Stelle das Datum **01.01.2020** in der Zelle **B4** und den Betrag **31,99 €** in der Zelle **B5** in korrekter Formatierung dar.
+<!-- .element class="fragment" --> 
+
+Note:
+-   Datei + Optionen + Erweitert + Trennzeichen vom Betriebssystem übernehmen
+
+<!--v-->
+
+#### (Daten-)Folgen
+
+-   Excel erkennt Folgen automatisch
+-   Bereich markieren und nach unten ziehen
+-   Formatierungen werden beim Ziehen übernommen
+
+*Aufgabe:* Gebe das Datum **03.01.2020** in die Zelle **B5** ein und ziehe die Folge bis Ende Januar nach unten.
+<!-- .element class="fragment" -->
+
+<!--v-->
+
+#### Funktionen in Excel
+
+-   dienen meist zur automatisierten Berechnung (Live)
+-   werden in einer Zelle mit einem **=** eingeleitet
+
+>   Bsp-Funktion in Zelle D4:
+>   -   $=30,99*1,19$ (Berechnung der Mehrwertsteuer) <!-- .element class="fragment" -->
+>   -   $=C4*1,19$ (Benutzen einer Zelle mit variablen Wert) <!-- .element class="fragment" -->
+>   -   $=C4*(1+B2)$ (Benutzen eines zentralen Steuersatzes) <!-- .element class="fragment" -->
+>   -   $=Runden(C4*(1+B2);2)$ (Runden des Ergebnisses auf 36,88€) <!-- .element class="fragment" -->
+
+Note:
+-   Bei nutzen des Bezugs auf anderen Spalten -> Formatübertrag
+-   beliebig häufiges Verbinden von Funktionen möglich
+-   Auslagerung von Werten und Nutzung von Variablen sinnvoll für Wartbarkeit
+
+<!--v-->
+
+#### Aufgabe
+
+-   Setze die Reihe mit dem Startwert bis Ende Januar mit der Funktion $n=(n-1)*2^{1,5}$ fort.
+-   Tipp: Doppelklick auf das Ende der Spalte passt die Größe an
+-   Frage: Warum kann man die 36,88€ nicht ebenfalls bis Ende Januar ziehen? <!-- .element class="fragment" -->
+
+Note:
+-   einfach mal ausprobieren mit Mehrwertsteuer ziehen
+-   sind Werte realistisch?
+-   Tipp: Schaut, welcher Wert in der Klammer zur 1 addiert wird
+
+<!--v-->
+
+#### Fixierung von Spalten, Reihen, Zellen
+
+-   **$**-Zeichen zur Fixierung in Excel
+-   beim Ziehen bleibt der Wert fixiert
+-   Spalte fixieren: **$A16**
+-   Reihe fixieren: **A$16**
+-   Zelle fixieren: **$A$16**
+
+Note:
+-   Bsp zeigen mit ziehen und verwendeten Zellen
+
+<!--v-->
+
+#### Aufgabe
+
+-   Fixiert den Wert in **B2** und zieht die Berechnung der Mehrwertsteuer bis Ende Januar
+
+[![Solution](images/Excel_finished_calculation.png) <!-- .element class="fragment" -->](images/Excel_finished_calculation.png)
+
+<!--v-->
+
+
+<!--h-->
+
 ## Einleitung
 
 ### *Was ist EDV?*
@@ -443,6 +535,30 @@ Note:
 
 <!--v-->
 
+### Umrechnung
+#### Dezimal in Dual
+
+1.  Zahl durch 2 Teilen, bis das Ergebnis 0 ist
+1.  Rest notieren
+1.  Reste von rechts nach links notieren
+
+<!--v-->
+
+Bsp: $78_{10} = ?_2$
+
+| Rechnung | Rest |
+|:---:|:---:|
+| $78 : 2 = 39$ | 0 |
+| $39 : 2 = 19$ | 1 |
+| $19 : 2 = 9$ | 1 |
+| $9 : 2 = 4$ | 1 |
+| $4 : 2 = 2$ | 0 |
+| $2 : 2 = 1$ | 0 |
+| $1 : 2 = 0$ | 1 |
+
+**Ergebnis:** 1001110
+<!--v-->
+
 ### Aufgabe
 
 Schreibt euer Alter in Dualdarstellung auf.
@@ -458,11 +574,11 @@ Note:
 
 Konvertiert die folgenden Zahlen ins Dualsystem bzw. Dezimalsystem:
 
--   2
--   113
--   1000101110
--   0
--   1111111
+-   $2_{10}$
+-   $113_{10}$
+-   $1000101110_{2}$
+-   $0_{10}$
+-   $1111111_{2}$
 
 Notes:
 -   2 = 10
