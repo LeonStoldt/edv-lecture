@@ -1,0 +1,1 @@
+reveal-md markdown/content.md --static static-slides --static-dirs=markdown/images
