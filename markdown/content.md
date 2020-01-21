@@ -71,6 +71,7 @@ Note:
 1.  Warum ist EDV für euren Beruf wichtig?
 
 Note:
+-   Antworten auf Fragen aufschreiben!
 -   Beispiele für Alltagssituationen:
     -   Smartphone
     -   Alexa / Google Home
@@ -84,12 +85,19 @@ Note:
 
 <!--h-->
 
-### Inhalt
-1.  Begriffsdefinitionen
-1.  Aufgabenstellung
-1.  Darstellung von Daten
-1.  Aufbau und Organisation von EDV-Anlagen
+#### Inhalt
+1.  Excel
+1.  Einleitung - Was ist EDV?
+1.  Mensch-Maschine-Interaktion
+1.  Optimale Informationsbeschaffung
+1.  Codierung - Grundlagen
+1.  Codierung von Bildern
+1.  Hardware
+1.  Software
 1.  Datenschutz
+1.  Security Awareness
+
+> ℹ Struktur noch nicht final <!-- .element style="font-size:0.7em" -->
 
 <!--h-->
 
@@ -111,7 +119,7 @@ Note:
 -   Dezimalstellen hinzufügen / entfernen
 -   Trennzeichen ändern
 
-*Aufgabe:* Stelle das Datum **01.01.2020** in der Zelle **B4** und den Betrag **31,99 €** in der Zelle **B5** in korrekter Formatierung dar.
+*Aufgabe:* Stelle das Datum **01.01.2020** in der Zelle **B4** und den Betrag **30,99 €** in der Zelle **C4** in korrekter Formatierung dar.
 <!-- .element class="fragment" --> 
 
 Note:
@@ -125,7 +133,7 @@ Note:
 -   Bereich markieren und nach unten ziehen
 -   Formatierungen werden beim Ziehen übernommen
 
-*Aufgabe:* Gebe das Datum **03.01.2020** in die Zelle **B5** ein und ziehe die Folge bis Ende Januar nach unten.
+*Aufgabe:* Gebe das Datum **01.02.2020** in die Zelle **B5** ein und ziehe die Folge bis Jahresende nach unten.
 <!-- .element class="fragment" -->
 
 <!--v-->
@@ -134,6 +142,8 @@ Note:
 
 -   dienen meist zur automatisierten Berechnung (Live)
 -   werden in einer Zelle mit einem **=** eingeleitet
+
+<!--v-->
 
 >   Bsp-Funktion in Zelle D4:
 >   -   $=30,99*1,19$ (Berechnung der Mehrwertsteuer) <!-- .element class="fragment" -->
@@ -165,9 +175,9 @@ Note:
 
 -   **$**-Zeichen zur Fixierung in Excel
 -   beim Ziehen bleibt der Wert fixiert
--   Spalte fixieren: **$A16**
--   Reihe fixieren: **A$16**
--   Zelle fixieren: **$A$16**
+-   Spalte fixieren: **$**A16
+-   Reihe fixieren: A**$**16
+-   Zelle fixieren: **$**A**$**16
 
 Note:
 -   Bsp zeigen mit ziehen und verwendeten Zellen
@@ -178,7 +188,44 @@ Note:
 
 -   Fixiert den Wert in **B2** und zieht die Berechnung der Mehrwertsteuer bis Ende Januar
 
-[![Solution](images/Excel_finished_calculation.png) <!-- .element class="fragment" -->](images/Excel_finished_calculation.png)
+[![Solution](images/Excel_finished_calculation.png) <!-- .element class="fragment" style="width:50%" -->](images/Excel_finished_calculation.png)
+
+<!--v-->
+
+#### Bedingte Formatierung
+
+
+<!--v-->
+
+#### Tabelle erstellen
+
+-   bestenfalls vorher Überschriften vergeben
+-   *Strg + T* oder 
+-   *Start $\rightarrow$ Formatvorlagen $\rightarrow$ als Tabelle formatieren*
+-   beinhaltet praktische Sortier- und Filterfunktion
+
+*Aufgabe:* Beobachte, was passiert wenn du das Datum in **B16** um den **01.02.2021** erweiterst.
+<!-- .element class="fragment" -->
+
+<!--v-->
+
+#### Graphen erstellen
+| |
+|:---|
+| $\rightarrow$   Datenbereich markieren |
+| $\rightarrow$   Einfügen |
+| $\rightarrow$   (Empfohlene) Diagramme |
+| ggf. $\rightarrow$ Alle Diagramme |
+| |
+
+-   Excel bietet viele verschiedene Visualisierungen
+-   Wahl der Visualisierung abhängig von Daten
+
+*Aufgabe:* Erstelle ein Liniendiagramm mit Datenpunkten
+<!-- .element class="fragment" -->
+
+<!--v-->
+
 
 <!--v-->
 
