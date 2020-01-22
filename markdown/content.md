@@ -146,10 +146,10 @@ Note:
 <!--v-->
 
 >   Bsp-Funktion in Zelle D4:
->   -   $=30,99*1,19$ (Berechnung der Mehrwertsteuer) <!-- .element class="fragment" -->
->   -   $=C4*1,19$ (Benutzen einer Zelle mit variablen Wert) <!-- .element class="fragment" -->
->   -   $=C4*(1+B2)$ (Benutzen eines zentralen Steuersatzes) <!-- .element class="fragment" -->
->   -   $=Runden(C4*(1+B2);2)$ (Runden des Ergebnisses auf 36,88€) <!-- .element class="fragment" -->
+>   -   $=30,99*1,19$ (Berechnung der Mehrwertsteuer) <!-- .element class="fragment" style="font-size:0,6em" -->
+>   -   $=C4*1,19$ (Benutzen einer Zelle mit variablen Wert) <!-- .element class="fragment" style="font-size:0,6em" -->
+>   -   $=C4*(1+B2)$ (Benutzen eines zentralen Steuersatzes) <!-- .element class="fragment" style="font-size:0,6em" -->
+>   -   $=Runden(C4*(1+B2);2)$ (Runden des Ergebnisses auf 36,88€) <!-- .element class="fragment" style="font-size:0,6em" -->
 
 Note:
 -   Bei nutzen des Bezugs auf anderen Spalten -> Formatübertrag
@@ -188,12 +188,17 @@ Note:
 
 -   Fixiert den Wert in **B2** und zieht die Berechnung der Mehrwertsteuer bis Ende Januar
 
+> ### TODO change pic
+
 [![Solution](images/Excel_finished_calculation.png) <!-- .element class="fragment" style="width:50%" -->](images/Excel_finished_calculation.png)
 
 <!--v-->
 
 #### Bedingte Formatierung
 
+-   z.B. farbliche Formatierung nach Werten
+-   Formatierung einer Zelle oder von Bereichen durch eine bestimmte Bedingung
+-   *siehe Übungsblatt nachher*
 
 <!--v-->
 
@@ -224,8 +229,15 @@ Note:
 *Aufgabe:* Erstelle ein Liniendiagramm mit Datenpunkten
 <!-- .element class="fragment" -->
 
+Note:
+-   auf Tabelleneinstellungen eingehen
+-   z.B. logarithmische Skala der Achse ändern
+
 <!--v-->
 
+### Übungsblatt
+
+Öffne das [Excel Übungsblatt](ms-excel:ofe|u|https://github.com/LeonStoldt/edv-lecture/blob/master/additional_files/Excel-Uebungsblatt-ZUM-VERTEILEN.xlsx)
 
 <!--v-->
 
@@ -932,7 +944,7 @@ Note:
 
 > Copyright © 2020 by Leon Stoldt
 ><!-- .element style="font-size:0.7em" -->
-> All rights reserved. No part of this publication may be reproduced, distributed, or transmitted in any form or by any means, including photocopying, recording, or other electronic or mechanical methods, without the prior written permission of the publisher, except in the case of brief quotations embodied in critical reviews and certain other noncommercial uses permitted by copyright law. For permission requests, write to the [publisher](https://www.xing.com/profile/Leon_Stoldt).
+> All rights reserved. No part of this publication may be reproduced, distributed, or transmitted in any form or by any means, including photocopying, recording, or other electronic or mechanical methods, without the prior written permission of the publisher, except in the case of brief quotations embodied in critical reviews and certain other noncommercial uses permitted by copyright law. For permission requests, write to the [publisher](mailto:leon.stoldt@nordakademie.de).
 ><!-- .element style="font-size:0.7em" -->
 
 -   [Systeminformation icon](https://icons8.de/icons/set/system-information) icon by [Icons8](https://icons8.de)
