@@ -79,6 +79,7 @@ Q1/2020
 1.  Warum ist EDV für euren Beruf wichtig?
 
 <aside class="notes"><ul>
+<li>Antworten auf Fragen aufschreiben!</li>
 <li>Beispiele für Alltagssituationen:<ul>
 <li>Smartphone</li>
 <li>Alexa / Google Home</li>
@@ -96,14 +97,164 @@ Q1/2020
 </ul>
 </aside></script></section></section><section  data-markdown><script type="text/template">
 
-### Inhalt
-1.  Begriffsdefinitionen
-1.  Aufgabenstellung
-1.  Darstellung von Daten
-1.  Aufbau und Organisation von EDV-Anlagen
+#### Inhalt
+1.  Excel
+1.  Einleitung - Was ist EDV?
+1.  Mensch-Maschine-Interaktion
+1.  Optimale Informationsbeschaffung
+1.  Codierung - Grundlagen
+1.  Codierung von Bildern
+1.  Hardware
+1.  Software
 1.  Datenschutz
+1.  Security Awareness
+
+> ℹ Struktur noch nicht final <!-- .element style="font-size:0.7em" -->
 
 </script></section><section ><section data-markdown><script type="text/template">
+
+## Excel
+
+</script></section><section data-markdown><script type="text/template">
+
+#### Allgemeine Begriffsklärung
+
+-   Buchstaben stellen **Spalten** dar
+-   Zahlen stellen **Zeilen** dar
+-   Die Kombination stellt eine **Zelle** dar *(Bsp: A16)*
+
+</script></section><section data-markdown><script type="text/template">
+
+#### Formatierung von Zahlen
+
+-   Buchhaltungsformate *(€, $, Datum, % etc.)*
+-   Dezimalstellen hinzufügen / entfernen
+-   Trennzeichen ändern
+
+*Aufgabe:* Stelle das Datum **01.01.2020** in der Zelle **B4** und den Betrag **30,99 €** in der Zelle **C4** in korrekter Formatierung dar.
+<!-- .element class="fragment" --> 
+
+<aside class="notes"><ul>
+<li>Datei + Optionen + Erweitert + Trennzeichen vom Betriebssystem übernehmen</li>
+</ul>
+</aside></script></section><section data-markdown><script type="text/template">
+
+#### (Daten-)Folgen
+
+-   Excel erkennt Folgen automatisch
+-   Bereich markieren und nach unten ziehen
+-   Formatierungen werden beim Ziehen übernommen
+
+*Aufgabe:* Gebe das Datum **01.02.2020** in die Zelle **B5** ein und ziehe die Folge bis Jahresende nach unten.
+<!-- .element class="fragment" -->
+
+</script></section><section data-markdown><script type="text/template">
+
+#### Funktionen in Excel
+
+-   dienen meist zur automatisierten Berechnung (Live)
+-   werden in einer Zelle mit einem **=** eingeleitet
+
+</script></section><section data-markdown><script type="text/template">
+
+>   Bsp-Funktion in Zelle D4:
+>   -   $=30,99*1,19$ (Berechnung der Mehrwertsteuer) <!-- .element class="fragment" style="font-size:0,6em" -->
+>   -   $=C4*1,19$ (Benutzen einer Zelle mit variablen Wert) <!-- .element class="fragment" style="font-size:0,6em" -->
+>   -   $=C4*(1+B2)$ (Benutzen eines zentralen Steuersatzes) <!-- .element class="fragment" style="font-size:0,6em" -->
+>   -   $=Runden(C4*(1+B2);2)$ (Runden des Ergebnisses auf 36,88€) <!-- .element class="fragment" style="font-size:0,6em" -->
+
+<aside class="notes"><ul>
+<li>Bei nutzen des Bezugs auf anderen Spalten -&gt; Formatübertrag</li>
+<li>beliebig häufiges Verbinden von Funktionen möglich</li>
+<li>Auslagerung von Werten und Nutzung von Variablen sinnvoll für Wartbarkeit</li>
+</ul>
+</aside></script></section><section data-markdown><script type="text/template">
+
+#### Aufgabe
+
+-   Setze die Reihe mit dem Startwert bis Ende Januar mit der Funktion $n=(n-1)*2^{1,5}$ fort.
+-   Tipp: Doppelklick auf das Ende der Spalte passt die Größe an
+-   Frage: Warum kann man die 36,88€ nicht ebenfalls bis Ende Januar ziehen? <!-- .element class="fragment" -->
+
+<aside class="notes"><ul>
+<li>einfach mal ausprobieren mit Mehrwertsteuer ziehen</li>
+<li>sind Werte realistisch?</li>
+<li>Tipp: Schaut, welcher Wert in der Klammer zur 1 addiert wird</li>
+</ul>
+</aside></script></section><section data-markdown><script type="text/template">
+
+#### Fixierung von Spalten, Reihen, Zellen
+
+-   **$**-Zeichen zur Fixierung in Excel
+-   beim Ziehen bleibt der Wert fixiert
+-   Spalte fixieren: **$**A16
+-   Reihe fixieren: A**$**16
+-   Zelle fixieren: **$**A**$**16
+
+<aside class="notes"><ul>
+<li>Bsp zeigen mit ziehen und verwendeten Zellen</li>
+</ul>
+</aside></script></section><section data-markdown><script type="text/template">
+
+#### Aufgabe
+
+-   Fixiert den Wert in **B2** und zieht die Berechnung der Mehrwertsteuer bis Ende Januar
+
+> ### TODO change pic
+
+[![Solution](images/Excel_finished_calculation.png) <!-- .element class="fragment" style="width:50%" -->](images/Excel_finished_calculation.png)
+
+</script></section><section data-markdown><script type="text/template">
+
+#### Bedingte Formatierung
+
+-   z.B. farbliche Formatierung nach Werten
+-   Formatierung einer Zelle oder von Bereichen durch eine bestimmte Bedingung
+-   *siehe Übungsblatt nachher*
+
+</script></section><section data-markdown><script type="text/template">
+
+#### Tabelle erstellen
+
+-   bestenfalls vorher Überschriften vergeben
+-   *Strg + T* oder 
+-   *Start $\rightarrow$ Formatvorlagen $\rightarrow$ als Tabelle formatieren*
+-   beinhaltet praktische Sortier- und Filterfunktion
+
+*Aufgabe:* Beobachte, was passiert wenn du das Datum in **B16** um den **01.02.2021** erweiterst.
+<!-- .element class="fragment" -->
+
+</script></section><section data-markdown><script type="text/template">
+
+#### Graphen erstellen
+| |
+|:---|
+| $\rightarrow$   Datenbereich markieren |
+| $\rightarrow$   Einfügen |
+| $\rightarrow$   (Empfohlene) Diagramme |
+| ggf. $\rightarrow$ Alle Diagramme |
+| |
+
+-   Excel bietet viele verschiedene Visualisierungen
+-   Wahl der Visualisierung abhängig von Daten
+
+*Aufgabe:* Erstelle ein Liniendiagramm mit Datenpunkten
+<!-- .element class="fragment" -->
+
+<aside class="notes"><ul>
+<li>auf Tabelleneinstellungen eingehen</li>
+<li>z.B. logarithmische Skala der Achse ändern</li>
+</ul>
+</aside></script></section><section data-markdown><script type="text/template">
+
+### Übungsblatt
+
+Öffne das [Excel Übungsblatt](ms-excel:ofe|u|https://github.com/LeonStoldt/edv-lecture/blob/master/additional_files/Excel-Uebungsblatt-ZUM-VERTEILEN.xlsx)
+
+</script></section><section data-markdown><script type="text/template">
+
+
+</script></section></section><section ><section data-markdown><script type="text/template">
 
 ## Einleitung
 
@@ -389,7 +540,7 @@ am Beispiel von Google
 -   🎨 Bilder <!-- .element: class="fragment" -->
 -   🎵 Musik <!-- .element: class="fragment" -->
 -   💾 Programme <!-- .element: class="fragment" -->
--   0️⃣1️⃣ logische Werte <!-- .element: class="fragment" -->
+-   logische Werte <!-- .element: class="fragment" -->
 -   etc. <!-- .element: class="fragment" -->
 
 <aside class="notes"><ul>
@@ -455,6 +606,30 @@ am Beispiel von Google
 
 </script></section><section data-markdown><script type="text/template">
 
+### Umrechnung
+#### Dezimal in Dual
+
+1.  Zahl durch 2 Teilen, bis das Ergebnis 0 ist
+1.  Rest notieren
+1.  Reste von rechts nach links notieren
+
+</script></section><section data-markdown><script type="text/template">
+
+Bsp: $78_{10} = ?_2$
+
+| Rechnung | Rest |
+|:---:|:---:|
+| $78 : 2 = 39$ | 0 |
+| $39 : 2 = 19$ | 1 |
+| $19 : 2 = 9$ | 1 |
+| $9 : 2 = 4$ | 1 |
+| $4 : 2 = 2$ | 0 |
+| $2 : 2 = 1$ | 0 |
+| $1 : 2 = 0$ | 1 |
+
+**Ergebnis:** 1001110
+</script></section><section data-markdown><script type="text/template">
+
 ### Aufgabe
 
 Schreibt euer Alter in Dualdarstellung auf.
@@ -470,11 +645,11 @@ Schreibt euer Alter in Dualdarstellung auf.
 
 Konvertiert die folgenden Zahlen ins Dualsystem bzw. Dezimalsystem:
 
--   2
--   113
--   1000101110
--   0
--   1111111
+-   $2_{10}$
+-   $113_{10}$
+-   $1000101110_{2}$
+-   $0_{10}$
+-   $1111111_{2}$
 
 <aside class="notes"><ul>
 <li>2 = 10</li>
@@ -545,7 +720,7 @@ Konvertiert die folgenden Zahlen ins Dualsystem bzw. Dezimalsystem:
 </ul>
 </aside></script></section><section data-markdown><script type="text/template">
 
-### Speicher
+#### Speicher
 
 | Einheit | Bits |
 |:---:|:---:|
@@ -617,25 +792,25 @@ Was ist ein Bild für den Computer überhaupt?
 
 </script></section><section data-markdown><script type="text/template">
 
-[![RGB Farben](images/RGB-Farben_Schwarz.png) <!-- .element width="35%" -->](images/RGB-Farben_Schwarz.png)
+[![RGB Farben](images/RGB-Farben_Schwarz.png) <!-- .element width="30%" -->](images/RGB-Farben_Schwarz.png)
 
 [![RGB Codierung](images/RGB-Farben_Codierung_Schwarz.png) <!-- .element width="80%" -->](images/RGB-Farben_Codierung_Schwarz.png)
 
 </script></section><section data-markdown><script type="text/template">
 
-[![RGB Farben](images/RGB-Farben_RGB.png) <!-- .element width="35%" -->](images/RGB-Farben_RGB.png)
+[![RGB Farben](images/RGB-Farben_RGB.png) <!-- .element width="30%" -->](images/RGB-Farben_RGB.png)
 
 [![RGB Codierung](images/RGB-Farben_Codierung_RGB.png) <!-- .element width="80%" -->](images/RGB-Farben_Codierung_RGB.png)
 
 </script></section><section data-markdown><script type="text/template">
 
-[![RGB Farben](images/RGB-Farben_Mix.png) <!-- .element width="35%" -->](images/RGB-Farben_Mix.png)
+[![RGB Farben](images/RGB-Farben_Mix.png) <!-- .element width="30%" -->](images/RGB-Farben_Mix.png)
 
 [![RGB Codierung](images/RGB-Farben_Codierung_Mix.png) <!-- .element width="80%" -->](images/RGB-Farben_Codierung_Mix.png)
 
 </script></section><section data-markdown><script type="text/template">
 
-[![RGB Farben](images/RGB-Farben_Weiss.png) <!-- .element width="35%" -->](images/RGB-Farben_Weiss.png)
+[![RGB Farben](images/RGB-Farben_Weiss.png) <!-- .element width="30%" -->](images/RGB-Farben_Weiss.png)
 
 [![RGB Codierung](images/RGB-Farben_Codierung_Weiss.png) <!-- .element width="80%" -->](images/RGB-Farben_Codierung_Weiss.png)
 
@@ -658,13 +833,13 @@ Was ist ein Bild für den Computer überhaupt?
 | 255 | 255 | 0 | 0 | 0 |
 |   |   |   |   |   |
 
-[![Beispiel Rastergrafik](images/SW-Rastergrafik.png) <!-- .element width="28%" -->](images/SW-Rastergrafik.png)
+[![Beispiel Rastergrafik](images/SW-Rastergrafik.png) <!-- .element width="20%" -->](images/SW-Rastergrafik.png)
 
 </script></section><section data-markdown><script type="text/template">
 
 #### Vergrößerte Grafik
 
-[![Beispiel Rastergrafik](images/SW-Rastergrafik.png) <!-- .element width="30%" -->](images/SW-Rastergrafik.png) [![Rastergrafik vergrößert](images/SW-Rastergrafik_zoomed_with_space.png) <!-- .element width="60%" -->](images/SW-Rastergrafik_zoomed_with_space.png)
+[![Beispiel Rastergrafik](images/SW-Rastergrafik.png) <!-- .element width="25%" -->](images/SW-Rastergrafik.png) [![Rastergrafik vergrößert](images/SW-Rastergrafik_zoomed_with_space.png) <!-- .element width="55%" -->](images/SW-Rastergrafik_zoomed_with_space.png)
 
 </script></section><section data-markdown><script type="text/template">
 
@@ -674,7 +849,7 @@ Was ist ein Bild für den Computer überhaupt?
 -   klare Kanten verschwinden $\rightarrow$ unscharfes Bild
 -   Werte der Umgebung werden vermischt
 
-[![Rastergrafik vergrößert](images/SW-Rastergrafik_zoomed_with_space.png) <!-- .element width="45%" -->](images/SW-Rastergrafik_zoomed_with_space.png) [![Rastergrafik vergrößert und berechnet](images/SW-Rastergrafik_zoomed_calculated.png) <!-- .element width="45%" -->](images/SW-Rastergrafik_zoomed_calculated.png)
+[![Rastergrafik vergrößert](images/SW-Rastergrafik_zoomed_with_space.png) <!-- .element width="35%" -->](images/SW-Rastergrafik_zoomed_with_space.png) [![Rastergrafik vergrößert und berechnet](images/SW-Rastergrafik_zoomed_calculated.png) <!-- .element width="35%" -->](images/SW-Rastergrafik_zoomed_calculated.png)
 
 </script></section><section data-markdown><script type="text/template">
 
@@ -690,7 +865,7 @@ Was ist ein Bild für den Computer überhaupt?
 
 #### Vektorgrafik vs. Rastergrafik am Beispiel
 
-[![Vergleich Verktor- vs. Rastergrafik](images/Vergleich_Vektor-_Rastergrafik.png) <!-- .element width="70%" -->](images/Vergleich_Vektor-_Rastergrafik.png)
+[![Vergleich Verktor- vs. Rastergrafik](images/Vergleich_Vektor-_Rastergrafik.png) <!-- .element width="60%" -->](images/Vergleich_Vektor-_Rastergrafik.png)
 
 </script></section><section data-markdown><script type="text/template">
 
@@ -699,7 +874,7 @@ Was ist ein Bild für den Computer überhaupt?
 -   Computerschriften <!-- .element class="fragment" -->
     -   durch Vektoren abbildbar <!-- .element class="fragment" -->
     -   benötigt nur eine Definition <!-- .element class="fragment" -->
-    -   folgend: Schriftgröße 11, 34, 72 werden berechnet <!-- .element class="fragment" -->
+    -   z.B. Schriftgrößen werden berechnet <!-- .element class="fragment" -->
 -   große Druckmedien (Bsp. Beklebung eines Busses) <!-- .element class="fragment" -->
     -   flexibler für spätere Änderungen <!-- .element class="fragment" -->
     -   Bsp. Beklebung desselben Motivs auf ein Gebäude <!-- .element class="fragment" -->
@@ -727,8 +902,8 @@ Was ist ein Bild für den Computer überhaupt?
 
 | Vorteile | Nachteile |
 |:---:|:---:|
-| flexible Änderung der Größe bei gleicher Qualität | komplexe Farbverläufe und Schattierungen schwer abbildbar |
-| flexible Änderung der Farben und Formen | muss mühevoll von Hand von Raster- in Vektorgrafik überführt werden |
+| flexible Änderung der Größe bei gleicher Qualität | Farbverläufe / Schattierungen schwer abbildbar |
+| flexible Änderung der Farben und Formen | mühevolle Überführung von Raster- in Vektorgrafik |
 | kleinere Dateigröße durch Berechnungsvorschriften |  |
 
 </script></section></section><section ><section data-markdown><script type="text/template">
@@ -757,31 +932,31 @@ Was ist ein Bild für den Computer überhaupt?
 </script></section></section><section ><section data-markdown><script type="text/template">
 
 ### Quellen
-1.  [Wikipedia: Elektronische Datenverarbeitung](https://de.wikipedia.org/wiki/Elektronische_Datenverarbeitung)
-1.  [Chip: EDV einfach erklärt](https://praxistipps.chip.de/was-ist-edv-einfach-erklaert_41876)
-1.  Räder: Technische Grundlagen der Informatik 1 (auf Basis von :  [ISBN 3-446-21932-3](https://www.hanser-fachbuch.de/buch/Einfuehrung+in+die+Informatik/9783446219328 "Paul Levi / Ulrich Rembold - Einführung in die Informatik für Naturwissenschaftler und Ingenieure München [u.a.], Hanser, 2003 (ISBN 3-446-21932-3)"),  [ISBN 3-8273-7151-1](https://www.booklooker.de/B%C3%BCcher/Andrew-S-Tanenbaum+Computerarchitektur-Strukturen-Konzepte-Grundlagen-Gebundene-Ausgabe-von-Andrew-S/id/A02fJGWl01ZZ2 "Andrew S. Tannenbaum / James Goodman Computerarchitektur – Strukturen, Konzepte, Grundlagen München, Pearson Studium, 2005 (ISBN 3-8273-7151-1)"))
-1.  [PcWelt: Fehlprognosen der IT-Geschichte](https://www.pcwelt.de/ratgeber/Die_spektakulaersten_Fehlprognosen_der_IT-Geschichte-6948150.html)
+-  [Wikipedia: Elektronische Datenverarbeitung](https://de.wikipedia.org/wiki/Elektronische_Datenverarbeitung)
+-  [Chip: EDV einfach erklärt](https://praxistipps.chip.de/was-ist-edv-einfach-erklaert_41876)
+-  Räder: Technische Grundlagen der Informatik 1 (auf Basis von :  [ISBN 3-446-21932-3](https://www.hanser-fachbuch.de/buch/Einfuehrung+in+die+Informatik/9783446219328 "Paul Levi / Ulrich Rembold - Einführung in die Informatik für Naturwissenschaftler und Ingenieure München [u.a.], Hanser, 2003 (ISBN 3-446-21932-3)"),  [ISBN 3-8273-7151-1](https://www.booklooker.de/B%C3%BCcher/Andrew-S-Tanenbaum+Computerarchitektur-Strukturen-Konzepte-Grundlagen-Gebundene-Ausgabe-von-Andrew-S/id/A02fJGWl01ZZ2 "Andrew S. Tannenbaum / James Goodman Computerarchitektur – Strukturen, Konzepte, Grundlagen München, Pearson Studium, 2005 (ISBN 3-8273-7151-1)"))
+-  [PcWelt: Fehlprognosen der IT-Geschichte](https://www.pcwelt.de/ratgeber/Die_spektakulaersten_Fehlprognosen_der_IT-Geschichte-6948150.html)
 </script></section><section data-markdown><script type="text/template">
-1.  [Wikipedia: ASCII](https://de.wikipedia.org/wiki/American_Standard_Code_for_Information_Interchange)
-1.  [Inf-Schule: Binärdarstellung von Bildern](https://www.inf-schule.de/information/darstellunginformation/binaerdarstellungbilder/vertiefung_speicheraufwand)
-1.  [Uni-Bonn: Codierung von Grauwerten](http://www.fis.uni-bonn.de/sites/default/files/rte/BitGWr.jpg)
-1.  [Informatikzentrum: RGB-Farbmodell](https://www.informatikzentrale.de/rgb-farbmodell.html)
-1.  [Wikipedia: Additive Farbmischung](https://de.wikipedia.org/wiki/Additive_Farbmischung)
+-  [Wikipedia: ASCII](https://de.wikipedia.org/wiki/American_Standard_Code_for_Information_Interchange)
+-  [Inf-Schule: Binärdarstellung von Bildern](https://www.inf-schule.de/information/darstellunginformation/binaerdarstellungbilder/vertiefung_speicheraufwand)
+-  [Uni-Bonn: Codierung von Grauwerten](http://www.fis.uni-bonn.de/sites/default/files/rte/BitGWr.jpg)
+-  [Informatikzentrum: RGB-Farbmodell](https://www.informatikzentrale.de/rgb-farbmodell.html)
+-  [Wikipedia: Additive Farbmischung](https://de.wikipedia.org/wiki/Additive_Farbmischung)
 </script></section><section data-markdown><script type="text/template">
-1.  [Wikipedia: Vektorgrafik](https://de.wikipedia.org/wiki/Vektorgrafik)
-1.  [Langner: Pixel oder Vektor](https://www.langner-beratung.de/sites/default/files/Pixel-oder-Vektor.pdf)
-1.  [Welt: Datenvolumen verdoppeln sich](https://www.welt.de/wirtschaft/webwelt/article118099520/Datenvolumen-verdoppelt-sich-alle-zwei-Jahre.html)
-1.  [Indexlift: Suchmaschinen 2019](https://www.indexlift.com/de/blog/marktanteile-suchmaschinen-weltweit-2019)
-1.  [Google: Websuche optimieren](https://support.google.com/websearch/answer/2466433?hl=de)
-1.  [Gabler: Mernsch-Maschine-Interaktion](https://wirtschaftslexikon.gabler.de/definition/mensch-maschine-interaktion-54079)
+-  [Wikipedia: Vektorgrafik](https://de.wikipedia.org/wiki/Vektorgrafik)
+-  [Langner: Pixel oder Vektor](https://www.langner-beratung.de/sites/default/files/Pixel-oder-Vektor.pdf)
+-  [Welt: Datenvolumen verdoppeln sich](https://www.welt.de/wirtschaft/webwelt/article118099520/Datenvolumen-verdoppelt-sich-alle-zwei-Jahre.html)
+-  [Indexlift: Suchmaschinen 2019](https://www.indexlift.com/de/blog/marktanteile-suchmaschinen-weltweit-2019)
+-  [Google: Websuche optimieren](https://support.google.com/websearch/answer/2466433?hl=de)
+-  [Gabler: Mernsch-Maschine-Interaktion](https://wirtschaftslexikon.gabler.de/definition/mensch-maschine-interaktion-54079)
 
 </script></section><section data-markdown><script type="text/template">
 
-### rechtliche Informationen
+#### rechtliche Informationen
 
 > Copyright © 2020 by Leon Stoldt
 ><!-- .element style="font-size:0.7em" -->
-> All rights reserved. No part of this publication may be reproduced, distributed, or transmitted in any form or by any means, including photocopying, recording, or other electronic or mechanical methods, without the prior written permission of the publisher, except in the case of brief quotations embodied in critical reviews and certain other noncommercial uses permitted by copyright law. For permission requests, write to the [publisher](https://www.xing.com/profile/Leon_Stoldt).
+> All rights reserved. No part of this publication may be reproduced, distributed, or transmitted in any form or by any means, including photocopying, recording, or other electronic or mechanical methods, without the prior written permission of the publisher, except in the case of brief quotations embodied in critical reviews and certain other noncommercial uses permitted by copyright law. For permission requests, write to the [publisher](mailto:leon.stoldt@nordakademie.de).
 ><!-- .element style="font-size:0.7em" -->
 
 -   [Systeminformation icon](https://icons8.de/icons/set/system-information) icon by [Icons8](https://icons8.de)
