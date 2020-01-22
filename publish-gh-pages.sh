@@ -1,0 +1,1 @@
+git subtree push --prefix static-slides/ origin gh-pages
