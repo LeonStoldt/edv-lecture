@@ -1,4 +1,4 @@
-### [Klicke hier, um zu den Folien zu gelangen](content.html)
+# [Klicke hier, um zu den Folien zu gelangen](content.html)
 
 #### rechtliche Informationen
 
