@@ -237,7 +237,7 @@ Note:
 
 ### Übungsblatt
 
-Öffne das [Excel Übungsblatt](ms-excel:ofe|u|https://github.com/LeonStoldt/edv-lecture/blob/master/additional_files/Excel-Uebungsblatt-ZUM-VERTEILEN.xlsx)
+Öffne das [Excel Übungsblatt](ms-excel:ofe|u|https://github.com/LeonStoldt/edv-lecture/blob/master/additional_files/Excel-Uebungsblatt-ZUM-VERTEILEN.xlsx) oder lade dir die Datei im moodle Kurs herunter.
 
 <!--v-->
 
