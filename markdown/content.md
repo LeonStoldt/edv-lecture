@@ -21,9 +21,7 @@ Q1/2020
 ### Grundinformationen
 
 -   **aktuellste** Vorlesungsfolien unter:
-"[leonstoldt.github.io/edv-lecture/content](https://leonstoldt.github.io/edv-lecture/content)"
--   Folien auch in [moodle](todo) verlinkt
--   Pausen nach Bedarf
+"[leonstoldt.github.io/edv-lecture/](https://leonstoldt.github.io/edv-lecture/)"
 -   teilt Interessen mit
 -   **stellt Fragen**
 
@@ -145,11 +143,11 @@ Note:
 
 <!--v-->
 
->   Bsp-Funktion in Zelle D4:
->   -   $=30,99*1,19$ (Berechnung der Mehrwertsteuer) <!-- .element class="fragment" style="font-size:0,6em" -->
->   -   $=C4*1,19$ (Benutzen einer Zelle mit variablen Wert) <!-- .element class="fragment" style="font-size:0,6em" -->
->   -   $=C4*(1+B2)$ (Benutzen eines zentralen Steuersatzes) <!-- .element class="fragment" style="font-size:0,6em" -->
->   -   $=Runden(C4*(1+B2);2)$ (Runden des Ergebnisses auf 36,88€) <!-- .element class="fragment" style="font-size:0,6em" -->
+Bsp-Funktion in Zelle D4:
+-   $=30,99*1,19$ (Berechnung der Mehrwertsteuer) <!-- .element class="fragment" style="font-size:0,6em" -->
+-   $=C4*1,19$ (Benutzen einer Zelle mit variablen Wert) <!-- .element class="fragment" style="font-size:0,6em" -->
+-   $=C4*(1+B2)$ (Benutzen eines zentralen Steuersatzes) <!-- .element class="fragment" style="font-size:0,6em" -->
+-   $=Runden(C4*(1+B2);2)$ (Runden des Ergebnisses auf 36,88€) <!-- .element class="fragment" style="font-size:0,6em" -->
 
 Note:
 -   Bei nutzen des Bezugs auf anderen Spalten -> Formatübertrag
