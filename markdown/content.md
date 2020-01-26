@@ -26,8 +26,6 @@ Q1/2020
 -   **stellt Fragen**
 
 Note:
--   bevorzugt den Github Link (am aktuellsten)
--   Meldet euch wenn ihr eine Pause braucht 
 -   Interessen bringe ich gerne mit ein
 -   Notfalls unterbrecht ihr mich zum Fragen
 -   sagt unbedingt Bescheid, wenn jmd nicht mehr folgen kann
@@ -158,7 +156,7 @@ Note:
 
 #### Aufgabe
 
--   Setze die Reihe mit dem Startwert bis Ende Januar mit der Funktion $n=(n-1)*2^{1,5}$ fort.
+-   Setze die Reihe mit dem Startwert bis zum Jahresende mit der Funktion $n=(n-1)*2^{1,15}$ fort.
 -   Tipp: Doppelklick auf das Ende der Spalte passt die Größe an
 -   Frage: Warum kann man die 36,88€ nicht ebenfalls bis Ende Januar ziehen? <!-- .element class="fragment" -->
 
@@ -235,7 +233,9 @@ Note:
 
 ### Übungsblatt
 
-Lade dir die Datei unter [leonstoldt.github.io/edv-lecture](https://leonstoldt.github.io/edv-lecture/) herunter und öffne das [Excel Übungsblatt](https://github.com/LeonStoldt/edv-lecture/blob/master/static-slides/additional_files/Excel-Uebungsblatt-ZUM-VERTEILEN.xlsx?raw=true) oder 
+Lade dir die Datei herunter und öffne das [Excel Übungsblatt](https://github.com/LeonStoldt/edv-lecture/blob/master/static-slides/additional_files/Excel-Uebungsblatt-ZUM-VERTEILEN.xlsx?raw=true)
+
+[leonstoldt.github.io/edv-lecture](https://leonstoldt.github.io/edv-lecture/) 
 
 <!--h-->
 
