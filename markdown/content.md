@@ -21,7 +21,7 @@ Q1/2020
 ### Grundinformationen
 
 -   **aktuellste** Vorlesungsfolien unter:
-"[leonstoldt.github.io/edv-lecture/](https://leonstoldt.github.io/edv-lecture/)"
+"[leonstoldt.github.io/edv-lecture](https://leonstoldt.github.io/edv-lecture/)"
 -   teilt Interessen mit
 -   **stellt Fragen**
 
@@ -235,7 +235,7 @@ Note:
 
 ### Übungsblatt
 
-Öffne das [Excel Übungsblatt](ms-excel:ofe|u|https://github.com/LeonStoldt/edv-lecture/blob/master/additional_files/Excel-Uebungsblatt-ZUM-VERTEILEN.xlsx)
+Öffne das [Excel Übungsblatt](https://github.com/LeonStoldt/edv-lecture/blob/master/additional_files/Excel-Uebungsblatt-ZUM-VERTEILEN.xlsx?raw=true) oder lade dir die Datei im moodle Kurs herunter.
 
 <!--v-->
 
