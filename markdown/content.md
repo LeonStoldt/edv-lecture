@@ -235,7 +235,7 @@ Note:
 
 ### Übungsblatt
 
-Öffne das [Excel Übungsblatt](static-slides/additional_files/Excel-Uebungsblatt-ZUM-VERTEILEN.xlsx) oder lade dir die Datei unter ... herunter.
+Lade dir die Datei unter [leonstoldt.github.io/edv-lecture](https://leonstoldt.github.io/edv-lecture/) herunter und öffne das [Excel Übungsblatt](https://github.com/LeonStoldt/edv-lecture/blob/master/static-slides/additional_files/Excel-Uebungsblatt-ZUM-VERTEILEN.xlsx?raw=true) oder 
 
 <!--h-->
 
