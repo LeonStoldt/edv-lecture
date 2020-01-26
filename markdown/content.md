@@ -184,9 +184,7 @@ Note:
 
 -   Fixiert den Wert in **B2** und zieht die Berechnung der Mehrwertsteuer bis Jahresende durch.
 
-> ### TODO change pic
-
-[![Solution](images/Excel_finished_calculation.PNG) <!-- .element class="fragment" style="width:50%" -->](images/Excel_finished_calculation.PNG)
+[![Solution](images/Excel_finished_calculation.png) <!-- .element class="fragment" style="width:50%" -->](images/Excel_finished_calculation.png)
 
 <!--v-->
 
