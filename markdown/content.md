@@ -235,10 +235,7 @@ Note:
 
 ### Übungsblatt
 
-Öffne das [Excel Übungsblatt](https://github.com/LeonStoldt/edv-lecture/blob/master/additional_files/Excel-Uebungsblatt-ZUM-VERTEILEN.xlsx?raw=true) oder lade dir die Datei im moodle Kurs herunter.
-
-<!--v-->
-
+Öffne das [Excel Übungsblatt](static-slides/additional_files/Excel-Uebungsblatt-ZUM-VERTEILEN.xlsx) oder lade dir die Datei unter ... herunter.
 
 <!--h-->
 
@@ -601,8 +598,6 @@ Note:
 
 <!--v-->
 
-Bsp: $78_{10} = ?_2$
-
 | Rechnung | Rest |
 |:---:|:---:|
 | $78 : 2 = 39$ | 0 |
@@ -655,7 +650,7 @@ Notes:
 Note:
 -   Daten als menschlich verständliche Form
 -   Bitfolge ist die Computer verständliche Form
--   Womit würdet ihr Text kodieren?
+-   Womit würdet ihr Text codieren?
 
 <!--v-->
 
@@ -663,7 +658,7 @@ Note:
 
 > "American Standard Code for Information Interchange"
 
--   Buchstaben [52], Ziffern [10], Satzzeichen etc. kodieren <!-- .element: class="fragment" -->
+-   Buchstaben [52], Ziffern [10], Satzzeichen etc. codieren <!-- .element: class="fragment" -->
 -   Wie viele Bit werden zur Codierung benötigt? <!-- .element: class="fragment" -->
 -   Aufgerundet: 1 Byte pro Zeichen <!-- .element: class="fragment" -->
 
@@ -681,7 +676,7 @@ Note:
 
 ### ASCII Tabelle
 
-[![ASCII Tabelle](images/ASCII_Table.png)](images/ASCII_Table.png)
+[![ASCII Tabelle](images/ASCII_Table.png) <!-- .element width="80%" -->](images/ASCII_Table.png)
 
 <!--v-->
 
@@ -907,7 +902,7 @@ Note:
 -   Software <!-- .element class="fragment" -->
  -  Betriebssystem <!-- .element class="fragment" -->
 -   Kommunikationswege <!-- .element class="fragment" -->
- -  Bus Systen <!-- .element class="fragment" -->
+ -  Bus System <!-- .element class="fragment" -->
 -   BIOS <!-- .element class="fragment" -->
 -   Prozessor <!-- .element class="fragment" -->
 
