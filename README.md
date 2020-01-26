@@ -1,6 +1,8 @@
 # [Klicke hier, um zu den Folien zu gelangen](content.html)
 
-## [Klicke hier, um die PDF zu öffnen](slides.pdf)
+## [Klicke hier, um die PDF zu öffnen](static-slides/additional_files/slides.pdf)
+
+## [Klicke hier, um das Excel-Übungsblatt zu öffnen](static-slides/additional_files/Excel-Uebungsblatt-ZUM-VERTEILEN.xlsx)
 
 ### rechtliche Informationen
 
