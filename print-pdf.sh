@@ -1,1 +1,1 @@
-reveal-md markdown/content.md --print static-slides/slides.pdf
+reveal-md markdown/content.md --print static-slides/additional_files/slides.pdf
