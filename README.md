@@ -1,10 +1,14 @@
 # [Klicke hier, um zu den Folien zu gelangen](content.html)
 
-## [Klicke hier, um die PDF zu öffnen](static-slides/additional_files/slides.pdf)
+---
 
-## [Klicke hier, um das Excel-Übungsblatt zu öffnen](static-slides/additional_files/Excel-Uebungsblatt-ZUM-VERTEILEN.xlsx)
+## [Klicke hier](static-slides/additional_files/slides.pdf), um die PDF zu öffnen
 
-### rechtliche Informationen
+## [Klicke hier](https://github.com/LeonStoldt/edv-lecture/blob/master/static-slides/additional_files/Excel-Uebungsblatt-ZUM-VERTEILEN.xlsx?raw=true), um das Excel-Übungsblatt zu öffnen
+
+---
+
+### Rechtliche Informationen
 
 > Copyright © 2020 by Leon Stoldt
 > All rights reserved. No part of this publication may be reproduced, distributed, or transmitted in any form or by any means, including photocopying, recording, or other electronic or mechanical methods, without the prior written permission of the publisher, except in the case of brief quotations embodied in critical reviews and certain other noncommercial uses permitted by copyright law. For permission requests, write to the [publisher](mailto:leon.stoldt@nordakademie.de).
