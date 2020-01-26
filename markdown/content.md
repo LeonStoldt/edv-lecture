@@ -158,7 +158,7 @@ Note:
 
 -   Setze die Reihe mit dem Startwert bis zum Jahresende mit der Funktion $n=(n-1)*2^{1,15}$ fort.
 -   Tipp: Doppelklick auf das Ende der Spalte passt die Größe an
--   Frage: Warum kann man die 36,88€ nicht ebenfalls bis Ende Januar ziehen? <!-- .element class="fragment" -->
+-   Frage: Warum kann man die 36,88€ nicht ebenfalls bis zum Jahresende ziehen? <!-- .element class="fragment" -->
 
 Note:
 -   einfach mal ausprobieren mit Mehrwertsteuer ziehen
@@ -182,11 +182,11 @@ Note:
 
 #### Aufgabe
 
--   Fixiert den Wert in **B2** und zieht die Berechnung der Mehrwertsteuer bis Ende Januar
+-   Fixiert den Wert in **B2** und zieht die Berechnung der Mehrwertsteuer bis Jahresende durch.
 
 > ### TODO change pic
 
-[![Solution](images/Excel_finished_calculation.png) <!-- .element class="fragment" style="width:50%" -->](images/Excel_finished_calculation.png)
+[![Solution](images/Excel_finished_calculation.PNG) <!-- .element class="fragment" style="width:50%" -->](images/Excel_finished_calculation.PNG)
 
 <!--v-->
 
@@ -233,7 +233,9 @@ Note:
 
 ### Übungsblatt
 
-Lade dir die Datei herunter und öffne das [Excel Übungsblatt](https://github.com/LeonStoldt/edv-lecture/blob/master/static-slides/additional_files/Excel-Uebungsblatt-ZUM-VERTEILEN.xlsx?raw=true)
+Öffne das [Excel Übungsblatt](https://github.com/LeonStoldt/edv-lecture/blob/master/static-slides/additional_files/Excel-Uebungsblatt-ZUM-VERTEILEN.xlsx?raw=true).
+
+Link zum Download: 
 
 [leonstoldt.github.io/edv-lecture](https://leonstoldt.github.io/edv-lecture/) 
 

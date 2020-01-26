@@ -4,7 +4,7 @@
 
 ## [Klicke hier](./additional_files/slides.pdf), um die PDF zu öffnen
 
-## [Klicke hier](https://github.com/LeonStoldt/edv-lecture/blob/master/static-slides/additional_files/Excel-Uebungsblatt-ZUM-VERTEILEN.xlsx?raw=true), um das Excel-Übungsblatt zu öffnen
+## [Klicke hier](./additional_files/Excel-Uebungsblatt-ZUM-VERTEILEN.xlsx), um das Excel-Übungsblatt zu öffnen
 
 ---
 
