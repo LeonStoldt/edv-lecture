@@ -50,7 +50,7 @@ Note:
 
 #### Auszug aus meiner Arbeit
 
-[![Bonprix Service Page](images/Bonprix_Service_Page.png "Bonprix Online Shop")  <!-- .element width="43%" -->](https://www.bonprix.de/service/whatsapp-ticker/) [![Bonprix Service Page](images/Tracy_Demo.png "Bonprix Business Intelligence Tool") <!-- .element width="54%" -->](images/Tracy_Demo.png)
+[![Bonprix Service Page](./images/Bonprix_Service_Page.png "Bonprix Online Shop")  <!-- .element width="43%" -->](https://www.bonprix.de/service/whatsapp-ticker/) [![Bonprix Service Page](./images/Tracy_Demo.png "Bonprix Business Intelligence Tool") <!-- .element width="54%" -->](./images/Tracy_Demo.png)
 
 Note: 
 -   Entwicklung und Wartung eigener Software
@@ -184,7 +184,7 @@ Note:
 
 -   Fixiert den Wert in **B2** und zieht die Berechnung der Mehrwertsteuer bis Jahresende durch.
 
-[![Solution](images/Excel_finished_calculation.png) <!-- .element class="fragment" style="width:50%" -->](images/Excel_finished_calculation.png)
+[![Solution](./images/Excel_finished_calculation.png) <!-- .element class="fragment" style="width:50%" -->](./images/Excel_finished_calculation.png)
 
 <!--v-->
 
@@ -311,12 +311,12 @@ Note:
 
 #### Interaktionen im Alltag
 
-[![Smartphone](images/Smartphone.png "Smartphone")  <!-- .element width="25.5%" class="fragment" -->](https://purepng.com/public/uploads/large/purepng.com-smartphone-blackpersonal-computersmartphonemobile-operating-systemcellular-phonephilipsandroid-17015283907136ti4q.png)
-[![Tablet](images/Smart_TV.png "Smart TV")  <!-- .element width="36.5%" class="fragment" -->](https://xvp.akamaized.net/assets/public/vpn-software/smart-tv-vpn@2x-b17f66be14ccfd4c71ee8b5e5e305bd1c3a82032b33a3cfd0f51710a03d7f3ef.png)
-[![Home Assistenten](images/Home_Assistenten.png "Smart Home / Home Assistent")  <!-- .element width="33%" class="fragment" -->](https://boobeam.com/wp-content/uploads/2018/11/googlealexa2.png)
-[![Ticket Automat](images/Ticket_Automat.png "Automat")  <!-- .element width="36.25%" class="fragment" -->](https://sbahn.berlin/fileadmin/_processed_/a/5/csm_ticket_machine_05d79a9bcc.png)
-[![Infotainment System](images/Infotainment.png "Infotainment System")  <!-- .element width="33.5%" class="fragment" -->](https://www.autoradio-info.de/wp-content/uploads/2017/09/img_8159.png)
-[![Smart Fridge](images/Smart_fridge.webp "Smart Fridge")  <!-- .element width="25.25%" class="fragment" -->](https://www.samsung.com/uk/refrigerators/family-hub-fridge-freezers/)
+[![Smartphone](./images/Smartphone.png "Smartphone")  <!-- .element width="25.5%" class="fragment" -->](https://purepng.com/public/uploads/large/purepng.com-smartphone-blackpersonal-computersmartphonemobile-operating-systemcellular-phonephilipsandroid-17015283907136ti4q.png)
+[![Tablet](./images/Smart_TV.png "Smart TV")  <!-- .element width="36.5%" class="fragment" -->](https://xvp.akamaized.net/assets/public/vpn-software/smart-tv-vpn@2x-b17f66be14ccfd4c71ee8b5e5e305bd1c3a82032b33a3cfd0f51710a03d7f3ef.png)
+[![Home Assistenten](./images/Home_Assistenten.png "Smart Home / Home Assistent")  <!-- .element width="33%" class="fragment" -->](https://boobeam.com/wp-content/uploads/2018/11/googlealexa2.png)
+[![Ticket Automat](./images/Ticket_Automat.png "Automat")  <!-- .element width="36.25%" class="fragment" -->](https://sbahn.berlin/fileadmin/_processed_/a/5/csm_ticket_machine_05d79a9bcc.png)
+[![Infotainment System](./images/Infotainment.png "Infotainment System")  <!-- .element width="33.5%" class="fragment" -->](https://www.autoradio-info.de/wp-content/uploads/2017/09/img_8159.png)
+[![Smart Fridge](./images/Smart_fridge.webp "Smart Fridge")  <!-- .element width="25.25%" class="fragment" -->](https://www.samsung.com/uk/refrigerators/family-hub-fridge-freezers/)
 
 Note:
 -   Wo sind Interaktionsschnittstellen in diesen Beispielen?
@@ -356,10 +356,10 @@ Note:
 
 | Suchmaschine | Marktanteil |
 |:---:|:---:|
-| [![Google](images/Google_Logo.png) <!-- .element width="50%" -->](https://www.google.de/) | 95% |
-| [![Bing](images/Bing_Logo.png) <!-- .element width="30%" -->](https://www.bing.com/?cc=de) | 3% |
-| [![Yahoo!](images/Yahoo_Logo.webp) <!-- .element width="25%" -->](https://search.yahoo.com/) | 1% |
-| [![DuckDuckGo](images/DuckDuckGo_Logo.png) <!-- .element width="20%" -->](https://duckduckgo.com/) | 1% |
+| [![Google](./images/Google_Logo.png) <!-- .element width="50%" -->](https://www.google.de/) | 95% |
+| [![Bing](./images/Bing_Logo.png) <!-- .element width="30%" -->](https://www.bing.com/?cc=de) | 3% |
+| [![Yahoo!](./images/Yahoo_Logo.webp) <!-- .element width="25%" -->](https://search.yahoo.com/) | 1% |
+| [![DuckDuckGo](./images/DuckDuckGo_Logo.png) <!-- .element width="20%" -->](https://duckduckgo.com/) | 1% |
 
 Note:
 -   Marktanteil von Deutschland und gerundet
@@ -676,7 +676,7 @@ Note:
 
 ### ASCII Tabelle
 
-[![ASCII Tabelle](images/ASCII_Table.png) <!-- .element width="80%" -->](images/ASCII_Table.png)
+[![ASCII Tabelle](./images/ASCII_Table.png) <!-- .element width="80%" -->](./images/ASCII_Table.png)
 
 <!--v-->
 
@@ -737,7 +737,7 @@ Note:
 
 ### Beispiel Rastergrafik:
 
-[![Elbe Kliniken Logo](images/logo_elbe_kliniken.png "Logo EK Stade Buxtehude")  <!-- .element width="43%" class="fragment" -->](images/logo_elbe_kliniken.png)[![Elbe Kliniken Logo](images/logo_elbe_kliniken_zoomed.png "Logo EK Stade Buxtehude vergrößert") <!-- .element width="43%" class="fragment" -->](images/logo_elbe_kliniken_zoomed.png)
+[![Elbe Kliniken Logo](./images/logo_elbe_kliniken.png "Logo EK Stade Buxtehude")  <!-- .element width="43%" class="fragment" -->](./images/logo_elbe_kliniken.png)[![Elbe Kliniken Logo](./images/logo_elbe_kliniken_zoomed.png "Logo EK Stade Buxtehude vergrößert") <!-- .element width="43%" class="fragment" -->](./images/logo_elbe_kliniken_zoomed.png)
 
 <!--v-->
 
@@ -746,20 +746,20 @@ Note:
 -   **0**: weißer Bildpunkt
 -   **1**: schwarzer Bildpunkt
 
-[![Ergebnisbild](images/SW-Bild_Codierung_Ergebnis.png) <!-- .element width="38%" -->](images/SW-Bild_Codierung_Ergebnis.png)[![SW-Bild Codierung](images/SW-Bild_Codierung.png)  <!-- .element width="20%" -->](images/SW-Bild_Codierung.png)
+[![Ergebnisbild](./images/SW-Bild_Codierung_Ergebnis.png) <!-- .element width="38%" -->](./images/SW-Bild_Codierung_Ergebnis.png)[![SW-Bild Codierung](./images/SW-Bild_Codierung.png)  <!-- .element width="20%" -->](./images/SW-Bild_Codierung.png)
 <!-- .element class="fragment" -->
 
 <!--v-->
 
 #### Codierung von Grauwerten
 
-[![Codierung von Grauwerten](images/Grauwerte_Codierung.jpg) <!-- .element width="150%" -->](images/Grauwerte_Codierung.jpg)
+[![Codierung von Grauwerten](./images/Grauwerte_Codierung.jpg) <!-- .element width="150%" -->](./images/Grauwerte_Codierung.jpg)
 
 <!--v-->
 
 #### Beispiel: 8-Bit Grauwerte Codierung
 
-[![Beispiel Bild - Grauwerte](images/Grauwerte_Bsp_Codierung_Ergebnis.png) <!-- .element width="30%" -->](images/Grauwerte_Bsp_Codierung_Ergebnis.png) [![Beispiel Codierung - Grauwerte](images/Grauwerte_Bsp_Codierung.png) <!-- .element width="62%" -->](images/Grauwerte_Bsp_Codierung.png)
+[![Beispiel Bild - Grauwerte](./images/Grauwerte_Bsp_Codierung_Ergebnis.png) <!-- .element width="30%" -->](./images/Grauwerte_Bsp_Codierung_Ergebnis.png) [![Beispiel Codierung - Grauwerte](./images/Grauwerte_Bsp_Codierung.png) <!-- .element width="62%" -->](./images/Grauwerte_Bsp_Codierung.png)
 
 <!--v-->
 
@@ -773,33 +773,33 @@ Note:
 
 <!--v-->
 
-[![RGB Farben](images/RGB-Farben_Schwarz.png) <!-- .element width="30%" -->](images/RGB-Farben_Schwarz.png)
+[![RGB Farben](./images/RGB-Farben_Schwarz.png) <!-- .element width="30%" -->](./images/RGB-Farben_Schwarz.png)
 
-[![RGB Codierung](images/RGB-Farben_Codierung_Schwarz.png) <!-- .element width="80%" -->](images/RGB-Farben_Codierung_Schwarz.png)
-
-<!--v-->
-
-[![RGB Farben](images/RGB-Farben_RGB.png) <!-- .element width="30%" -->](images/RGB-Farben_RGB.png)
-
-[![RGB Codierung](images/RGB-Farben_Codierung_RGB.png) <!-- .element width="80%" -->](images/RGB-Farben_Codierung_RGB.png)
+[![RGB Codierung](./images/RGB-Farben_Codierung_Schwarz.png) <!-- .element width="80%" -->](./images/RGB-Farben_Codierung_Schwarz.png)
 
 <!--v-->
 
-[![RGB Farben](images/RGB-Farben_Mix.png) <!-- .element width="30%" -->](images/RGB-Farben_Mix.png)
+[![RGB Farben](./images/RGB-Farben_RGB.png) <!-- .element width="30%" -->](./images/RGB-Farben_RGB.png)
 
-[![RGB Codierung](images/RGB-Farben_Codierung_Mix.png) <!-- .element width="80%" -->](images/RGB-Farben_Codierung_Mix.png)
+[![RGB Codierung](./images/RGB-Farben_Codierung_RGB.png) <!-- .element width="80%" -->](./images/RGB-Farben_Codierung_RGB.png)
 
 <!--v-->
 
-[![RGB Farben](images/RGB-Farben_Weiss.png) <!-- .element width="30%" -->](images/RGB-Farben_Weiss.png)
+[![RGB Farben](./images/RGB-Farben_Mix.png) <!-- .element width="30%" -->](./images/RGB-Farben_Mix.png)
 
-[![RGB Codierung](images/RGB-Farben_Codierung_Weiss.png) <!-- .element width="80%" -->](images/RGB-Farben_Codierung_Weiss.png)
+[![RGB Codierung](./images/RGB-Farben_Codierung_Mix.png) <!-- .element width="80%" -->](./images/RGB-Farben_Codierung_Mix.png)
+
+<!--v-->
+
+[![RGB Farben](./images/RGB-Farben_Weiss.png) <!-- .element width="30%" -->](./images/RGB-Farben_Weiss.png)
+
+[![RGB Codierung](./images/RGB-Farben_Codierung_Weiss.png) <!-- .element width="80%" -->](./images/RGB-Farben_Codierung_Weiss.png)
 
 <!--v-->
 
 ### RGB Farbkreis
 
-[![RGB Kreis](images/RGB-Kreis.png) <!-- .element width="80%" -->](images/RGB-Kreis.png)
+[![RGB Kreis](./images/RGB-Kreis.png) <!-- .element width="80%" -->](./images/RGB-Kreis.png)
 
 <!--v-->
 
@@ -814,13 +814,13 @@ Note:
 | 255 | 255 | 0 | 0 | 0 |
 |   |   |   |   |   |
 
-[![Beispiel Rastergrafik](images/SW-Rastergrafik.png) <!-- .element width="20%" -->](images/SW-Rastergrafik.png)
+[![Beispiel Rastergrafik](./images/SW-Rastergrafik.png) <!-- .element width="20%" -->](./images/SW-Rastergrafik.png)
 
 <!--v-->
 
 #### Vergrößerte Grafik
 
-[![Beispiel Rastergrafik](images/SW-Rastergrafik.png) <!-- .element width="25%" -->](images/SW-Rastergrafik.png) [![Rastergrafik vergrößert](images/SW-Rastergrafik_zoomed_with_space.png) <!-- .element width="55%" -->](images/SW-Rastergrafik_zoomed_with_space.png)
+[![Beispiel Rastergrafik](./images/SW-Rastergrafik.png) <!-- .element width="25%" -->](./images/SW-Rastergrafik.png) [![Rastergrafik vergrößert](./images/SW-Rastergrafik_zoomed_with_space.png) <!-- .element width="55%" -->](./images/SW-Rastergrafik_zoomed_with_space.png)
 
 <!--v-->
 
@@ -830,7 +830,7 @@ Note:
 -   klare Kanten verschwinden $\rightarrow$ unscharfes Bild
 -   Werte der Umgebung werden vermischt
 
-[![Rastergrafik vergrößert](images/SW-Rastergrafik_zoomed_with_space.png) <!-- .element width="35%" -->](images/SW-Rastergrafik_zoomed_with_space.png) [![Rastergrafik vergrößert und berechnet](images/SW-Rastergrafik_zoomed_calculated.png) <!-- .element width="35%" -->](images/SW-Rastergrafik_zoomed_calculated.png)
+[![Rastergrafik vergrößert](./images/SW-Rastergrafik_zoomed_with_space.png) <!-- .element width="35%" -->](./images/SW-Rastergrafik_zoomed_with_space.png) [![Rastergrafik vergrößert und berechnet](./images/SW-Rastergrafik_zoomed_calculated.png) <!-- .element width="35%" -->](./images/SW-Rastergrafik_zoomed_calculated.png)
 
 <!--v-->
 
@@ -846,7 +846,7 @@ Note:
 
 #### Vektorgrafik vs. Rastergrafik am Beispiel
 
-[![Vergleich Verktor- vs. Rastergrafik](images/Vergleich_Vektor-_Rastergrafik.png) <!-- .element width="60%" -->](images/Vergleich_Vektor-_Rastergrafik.png)
+[![Vergleich Verktor- vs. Rastergrafik](./images/Vergleich_Vektor-_Rastergrafik.png) <!-- .element width="60%" -->](./images/Vergleich_Vektor-_Rastergrafik.png)
 
 <!--v-->
 
