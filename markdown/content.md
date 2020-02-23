@@ -93,8 +93,6 @@ Note:
 1.  Datenschutz
 1.  Security Awareness
 
-> ℹ Struktur noch nicht final <!-- .element style="font-size:0.7em" -->
-
 <!--h-->
 
 ## Excel
@@ -895,20 +893,189 @@ Note:
 
 ### Komponenten eines Computers
 
--   Speicher <!-- .element class="fragment" -->
- -  Arbeitsspeicher (RAM) <!-- .element class="fragment" -->
- -  Cache <!-- .element class="fragment" -->
- -  Festplatten <!-- .element class="fragment" -->
--   Software <!-- .element class="fragment" -->
- -  Betriebssystem <!-- .element class="fragment" -->
--   Kommunikationswege <!-- .element class="fragment" -->
- -  Bus System <!-- .element class="fragment" -->
--   BIOS <!-- .element class="fragment" -->
--   Prozessor <!-- .element class="fragment" -->
-
-
+-   Mainboard
+    -   BIOS
+-   CPU / Prozessor
+ -  Cache
+-   Speicher
+    -  Arbeitsspeicher (RAM)
+    -  HDD Festplatten
+    -  SSD Festplatten
+-  Betriebssystem
 
 <!--v-->
+
+### Allgemeiner Überblick
+
+Steckbrief über die wichtigsten Komponenten:
+[Allgemeiner Aufbau eines PCs](./additional_files/Allgemeiner_Aufbau_eines_PCs.pdf)
+
+<!--v-->
+
+### Mainboard
+
+-   Hauptplatine (größte und wichtigster Bestandteil)
+-   Anbringung aller Komponenten
+    -   CPU
+    -   Arbeitsspeicher
+    -   Grafikkarte
+    -   BIOS
+    -   etc.
+
+<!--v-->
+
+### Mainboard
+
+[![Mainboard beschriftet](images/mainboard-erklaert.jpg) <!-- .element width="70%" -->](images/mainboard-erklaert.jpg)
+
+<!--v-->
+
+### CPU
+
+> Central Processing Unit
+
+-   zentrale und wichtigste Komponente
+-   arbeitet Befehle ab
+-   hohe Taktrate $\rightarrow$ wird sehr heiß
+
+<!--v-->
+
+### CPU
+
+[![CPU und Kühler](images/cpu-and-cooler.jpg)](images/cpu-and-cooler.jpg)
+
+<!--v-->
+
+### Cache
+
+-   in der CPU zu finden
+-   Zwischenspeichern von häufig benutzen Daten
+-   sehr schneller Speicher(zugriff)
+-   (sehr teuer) $\rightarrow$ geringer Speicher
+
+<!--v-->
+
+### Arbeitsspeicher (RAM)
+
+-   RAM = Random Access Memory
+-   volatil (=flüchtig) $\rightarrow$ Daten verschwinden beim Herunterfahren des Rechners 
+-   schneller Speicher
+
+Note:
+-   Random access erklären
+-   "normale" Zugriffsweise (iterativ) erklären
+-   volatiler Speicher vs persistenter Speicher 
+
+<!--v-->
+
+### RAM
+
+[![RAM Riegel](images/RAM-on-motherboard.jpg)](images/RAM-on-motherboard.jpg)
+
+<!--v-->
+
+### Grafikkarte
+
+-   Erweiterungskarte für Grafikverarbeitung
+-   z.B. Berechnungen von Text- / Spiele- / 3D-Animationsausgaben
+
+<!--v-->
+
+### Grafikkarte
+
+[![Grafikkarte](images/graphics-card.webp) <!-- .element width="85%" -->](images/graphics-card.webp)
+
+<!--v-->
+
+### Soundkarte
+
+-   zur Wiedergabe hochwertigen Sounds
+-   Ausgabe von 2, 5 oder 7 Audiokanälen
+
+<!--v-->
+
+### Soundkarte
+
+[![Soundkarte](images/sound-card.jpg)](images/sound-card.jpg)
+
+<!--v-->
+
+### Netzwerkkarte
+
+-   Verbindung des Rechners an bestehende Netzwerkinfrastruktur
+-   Bsp. Anschließen eines LAN-Kabels zum Router
+-   WLAN Modul zum verbinden mit drahtlosen Netzwerken
+
+<!--v-->
+
+### Netzwerkkarte
+
+[![Netzwerkkarte](images/network-card.jpg)](images/network-card.jpg)
+
+<!--v-->
+
+### Festplatte HDD
+
+-   Hard Disk Drive (Platten als Speichermedium)
+-   große Speicherkapazität, aber langsamer Speicherzugriff
+
+<!--v-->
+
+### Festplatte SSD und HDD
+
+[![SSD und HDD](images/ssd-and-hdd.jpg)](images/ssd-and-hdd.jpg)
+
+<!--v-->
+
+### externe Geräte
+
+-   Anschluss z.B. über USB
+-   Bsp. Drucker, Maus, Tastatur, Monitor etc.
+
+<!--h-->
+
+## Software
+
+<!--v-->
+
+#### Schichten eines Computers
+
+[![Schichtenmodell Software](images/Schichtenmodell_Software.png) <!-- .element width="40%" -->](images/Schichtenmodell_Software.png)
+
+Note:
+-   Richtung der Pfeile ist Interaktionsrichtung
+-   Interaktionen des Nutzers gehen immer auf die Hardware Ebene herunter
+-   Betriebssystem und Anwendungsebene unterteilen sich jeweils in weitere Unterebenen
+-   Anwendungsebene ist z.B. Software wie Google Chrome zur Interaktion
+-   Anwendungsebene wird durch Software Entwickler programmiert und nutzt Funktionalitäten des Betriebssystems
+
+<!--v-->
+
+### Betriebssystem
+
+-   Resourcenverwaltung <!-- .element class="fragment" -->
+-   Prozess- und deren Resourcenverwaltung <!-- .element class="fragment" -->
+    -   Prozessorzeitverwaltung <!-- .element class="fragment" -->
+    -   Speicherverwaltung <!-- .element class="fragment" -->
+    -   Dateienverwaltung <!-- .element class="fragment" -->
+-   beinhaltet Gerätetreiber <!-- .element class="fragment" -->
+-   bietet das Dateisystem <!-- .element class="fragment" -->
+
+<!--v-->
+
+### Anwendungsebene
+
+-   GUI mit der wir interagieren <!-- .element class="fragment" -->
+-   Textverarbeitung <!-- .element class="fragment" -->
+-   Tabellenkalkulationen <!-- .element class="fragment" -->
+-   Grafiken <!-- .element class="fragment" -->
+-   Browser <!-- .element class="fragment" -->
+-   Spiele <!-- .element class="fragment" -->
+-   Programmierung und Datenbanken <!-- .element class="fragment" -->
+-   etc. <!-- .element class="fragment" -->
+
+Note:
+-   GUI = Graphical User Interface
 
 <!--h-->
 
@@ -929,7 +1096,13 @@ Note:
 -  [Welt: Datenvolumen verdoppeln sich](https://www.welt.de/wirtschaft/webwelt/article118099520/Datenvolumen-verdoppelt-sich-alle-zwei-Jahre.html)
 -  [Indexlift: Suchmaschinen 2019](https://www.indexlift.com/de/blog/marktanteile-suchmaschinen-weltweit-2019)
 -  [Google: Websuche optimieren](https://support.google.com/websearch/answer/2466433?hl=de)
+<!--v-->
+
 -  [Gabler: Mernsch-Maschine-Interaktion](https://wirtschaftslexikon.gabler.de/definition/mensch-maschine-interaktion-54079)
+-  [BerufsbildungBaden: Allgemeiner PC Aufbau](https://projekte.bbbaden.ch/wp-content/uploads/2016/08/AllgemeinPCAufbau.pdf)
+-  [Github: techn. Grundl. der Informatik](https://leonstoldt.github.io/technische-Grundlagen-der-Informatik/page)
+-  [Uni Bremen: Aufbau und Funktionsweise eines Computers](http://www.informatik.uni-bremen.de/~roefer/pi1-05/02.pdf)
+-  [Uni für Statistik Wien: Betriebssystem](http://statistik.boku.ac.at/roberts_it-kurs-unterlagen/doku.php?id=grundbegriffe:betriebssystem:start)
 
 <!--v-->
 
