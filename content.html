@@ -105,8 +105,6 @@ Q1/2020
 1.  Datenschutz
 1.  Security Awareness
 
-> ℹ Struktur noch nicht final <!-- .element style="font-size:0.7em" -->
-
 </script></section><section ><section data-markdown><script type="text/template">
 
 ## Excel
@@ -907,22 +905,191 @@ Was ist ein Bild für den Computer überhaupt?
 
 ### Komponenten eines Computers
 
--   Speicher <!-- .element class="fragment" -->
- -  Arbeitsspeicher (RAM) <!-- .element class="fragment" -->
- -  Cache <!-- .element class="fragment" -->
- -  Festplatten <!-- .element class="fragment" -->
--   Software <!-- .element class="fragment" -->
- -  Betriebssystem <!-- .element class="fragment" -->
--   Kommunikationswege <!-- .element class="fragment" -->
- -  Bus System <!-- .element class="fragment" -->
--   BIOS <!-- .element class="fragment" -->
--   Prozessor <!-- .element class="fragment" -->
-
-
+-   Mainboard
+    -   BIOS
+-   CPU / Prozessor
+ -  Cache
+-   Speicher
+    -  Arbeitsspeicher (RAM)
+    -  HDD Festplatten
+    -  SSD Festplatten
+-  Betriebssystem
 
 </script></section><section data-markdown><script type="text/template">
 
+### Allgemeiner Überblick
+
+Steckbrief über die wichtigsten Komponenten:
+[Allgemeiner Aufbau eines PCs](./additional_files/Allgemeiner_Aufbau_eines_PCs.pdf)
+
+</script></section><section data-markdown><script type="text/template">
+
+### Mainboard
+
+-   Hauptplatine (größte und wichtigster Bestandteil)
+-   Anbringung aller Komponenten
+    -   CPU
+    -   Arbeitsspeicher
+    -   Grafikkarte
+    -   BIOS
+    -   etc.
+
+</script></section><section data-markdown><script type="text/template">
+
+### Mainboard
+
+[![Mainboard beschriftet](images/mainboard-erklaert.jpg) <!-- .element width="70%" -->](images/mainboard-erklaert.jpg)
+
+</script></section><section data-markdown><script type="text/template">
+
+### CPU
+
+> Central Processing Unit
+
+-   zentrale und wichtigste Komponente
+-   arbeitet Befehle ab
+-   hohe Taktrate $\rightarrow$ wird sehr heiß
+
+</script></section><section data-markdown><script type="text/template">
+
+### CPU
+
+[![CPU und Kühler](images/cpu-and-cooler.jpg)](images/cpu-and-cooler.jpg)
+
+</script></section><section data-markdown><script type="text/template">
+
+### Cache
+
+-   in der CPU zu finden
+-   Zwischenspeichern von häufig benutzen Daten
+-   sehr schneller Speicher(zugriff)
+-   (sehr teuer) $\rightarrow$ geringer Speicher
+
+</script></section><section data-markdown><script type="text/template">
+
+### Arbeitsspeicher (RAM)
+
+-   RAM = Random Access Memory
+-   volatil (=flüchtig) $\rightarrow$ Daten verschwinden beim Herunterfahren des Rechners 
+-   schneller Speicher
+
+<aside class="notes"><ul>
+<li>Random access erklären</li>
+<li>&quot;normale&quot; Zugriffsweise (iterativ) erklären</li>
+<li>volatiler Speicher vs persistenter Speicher</li>
+</ul>
+</aside></script></section><section data-markdown><script type="text/template">
+
+### RAM
+
+[![RAM Riegel](images/RAM-on-motherboard.jpg)](images/RAM-on-motherboard.jpg)
+
+</script></section><section data-markdown><script type="text/template">
+
+### Grafikkarte
+
+-   Erweiterungskarte für Grafikverarbeitung
+-   z.B. Berechnungen von Text- / Spiele- / 3D-Animationsausgaben
+
+</script></section><section data-markdown><script type="text/template">
+
+### Grafikkarte
+
+[![Grafikkarte](images/graphics-card.webp) <!-- .element width="85%" -->](images/graphics-card.webp)
+
+</script></section><section data-markdown><script type="text/template">
+
+### Soundkarte
+
+-   zur Wiedergabe hochwertigen Sounds
+-   Ausgabe von 2, 5 oder 7 Audiokanälen
+
+</script></section><section data-markdown><script type="text/template">
+
+### Soundkarte
+
+[![Soundkarte](images/sound-card.jpg)](images/sound-card.jpg)
+
+</script></section><section data-markdown><script type="text/template">
+
+### Netzwerkkarte
+
+-   Verbindung des Rechners an bestehende Netzwerkinfrastruktur
+-   Bsp. Anschließen eines LAN-Kabels zum Router
+-   WLAN Modul zum verbinden mit drahtlosen Netzwerken
+
+</script></section><section data-markdown><script type="text/template">
+
+### Netzwerkkarte
+
+[![Netzwerkkarte](images/network-card.jpg)](images/network-card.jpg)
+
+</script></section><section data-markdown><script type="text/template">
+
+### Festplatte HDD
+
+-   Hard Disk Drive (Platten als Speichermedium)
+-   große Speicherkapazität, aber langsamer Speicherzugriff
+
+</script></section><section data-markdown><script type="text/template">
+
+### Festplatte SSD und HDD
+
+[![SSD und HDD](images/ssd-and-hdd.jpg)](images/ssd-and-hdd.jpg)
+
+</script></section><section data-markdown><script type="text/template">
+
+### externe Geräte
+
+-   Anschluss z.B. über USB
+-   Bsp. Drucker, Maus, Tastatur, Monitor etc.
+
 </script></section></section><section ><section data-markdown><script type="text/template">
+
+## Software
+
+</script></section><section data-markdown><script type="text/template">
+
+#### Schichten eines Computers
+
+[![Schichtenmodell Software](images/Schichtenmodell_Software.png) <!-- .element width="40%" -->](images/Schichtenmodell_Software.png)
+
+<aside class="notes"><ul>
+<li>Richtung der Pfeile ist Interaktionsrichtung</li>
+<li>Interaktionen des Nutzers gehen immer auf die Hardware Ebene herunter</li>
+<li>Betriebssystem und Anwendungsebene unterteilen sich jeweils in weitere Unterebenen</li>
+<li>Anwendungsebene ist z.B. Software wie Google Chrome zur Interaktion</li>
+<li>Anwendungsebene wird durch Software Entwickler programmiert und nutzt Funktionalitäten des Betriebssystems</li>
+</ul>
+</aside></script></section><section data-markdown><script type="text/template">
+
+### Betriebssystem
+
+-   Resourcenverwaltung <!-- .element class="fragment" -->
+-   Prozess- und deren Resourcenverwaltung <!-- .element class="fragment" -->
+    -   Prozessorzeitverwaltung <!-- .element class="fragment" -->
+    -   Speicherverwaltung <!-- .element class="fragment" -->
+    -   Dateienverwaltung <!-- .element class="fragment" -->
+-   beinhaltet Gerätetreiber <!-- .element class="fragment" -->
+-   bietet das Dateisystem <!-- .element class="fragment" -->
+
+</script></section><section data-markdown><script type="text/template">
+
+### Anwendungsebene
+
+-   GUI mit der wir interagieren <!-- .element class="fragment" -->
+-   Textverarbeitung <!-- .element class="fragment" -->
+-   Tabellenkalkulationen <!-- .element class="fragment" -->
+-   Grafiken <!-- .element class="fragment" -->
+-   Browser <!-- .element class="fragment" -->
+-   Spiele <!-- .element class="fragment" -->
+-   Programmierung und Datenbanken <!-- .element class="fragment" -->
+-   etc. <!-- .element class="fragment" -->
+
+<aside class="notes"><ul>
+<li>GUI = Graphical User Interface</li>
+</ul>
+</aside></script></section></section><section ><section data-markdown><script type="text/template">
 
 ### Quellen
 -  [Wikipedia: Elektronische Datenverarbeitung](https://de.wikipedia.org/wiki/Elektronische_Datenverarbeitung)
@@ -941,7 +1108,13 @@ Was ist ein Bild für den Computer überhaupt?
 -  [Welt: Datenvolumen verdoppeln sich](https://www.welt.de/wirtschaft/webwelt/article118099520/Datenvolumen-verdoppelt-sich-alle-zwei-Jahre.html)
 -  [Indexlift: Suchmaschinen 2019](https://www.indexlift.com/de/blog/marktanteile-suchmaschinen-weltweit-2019)
 -  [Google: Websuche optimieren](https://support.google.com/websearch/answer/2466433?hl=de)
+</script></section><section data-markdown><script type="text/template">
+
 -  [Gabler: Mernsch-Maschine-Interaktion](https://wirtschaftslexikon.gabler.de/definition/mensch-maschine-interaktion-54079)
+-  [BerufsbildungBaden: Allgemeiner PC Aufbau](https://projekte.bbbaden.ch/wp-content/uploads/2016/08/AllgemeinPCAufbau.pdf)
+-  [Github: techn. Grundl. der Informatik](https://leonstoldt.github.io/technische-Grundlagen-der-Informatik/page)
+-  [Uni Bremen: Aufbau und Funktionsweise eines Computers](http://www.informatik.uni-bremen.de/~roefer/pi1-05/02.pdf)
+-  [Uni für Statistik Wien: Betriebssystem](http://statistik.boku.ac.at/roberts_it-kurs-unterlagen/doku.php?id=grundbegriffe:betriebssystem:start)
 
 </script></section><section data-markdown><script type="text/template">
 
