@@ -91,7 +91,7 @@ Note:
 1.  Hardware
 1.  Software
 1.  Datenschutz
-1.  Security Awareness
+1.  Künstliche Intelligenz
 
 <!--h-->
 
@@ -1065,7 +1065,7 @@ Note:
 
 ### Anwendungsebene
 
--   GUI mit der wir interagieren <!-- .element class="fragment" -->
+-   Grafische Benutzeroberfläche mit der wir interagieren <!-- .element class="fragment" -->
 -   Textverarbeitung <!-- .element class="fragment" -->
 -   Tabellenkalkulationen <!-- .element class="fragment" -->
 -   Grafiken <!-- .element class="fragment" -->
@@ -1074,10 +1074,22 @@ Note:
 -   Programmierung und Datenbanken <!-- .element class="fragment" -->
 -   etc. <!-- .element class="fragment" -->
 
-Note:
--   GUI = Graphical User Interface
+<!--h-->
+
+## Datenschutz
+
+<!--v-->
+
+> Selbststudium (siehe [Aufgaben](./Aufgaben.md))
 
 <!--h-->
+
+## Künstliche Intelligenz
+
+<!--v-->
+
+> Selbststudium (siehe [Aufgaben](./Aufgaben.md))
+
 
 ### Quellen
 -  [Wikipedia: Elektronische Datenverarbeitung](https://de.wikipedia.org/wiki/Elektronische_Datenverarbeitung)
