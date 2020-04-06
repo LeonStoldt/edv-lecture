@@ -4,7 +4,7 @@
 
 ## [Klicke hier](./additional_files/slides.pdf), um die PDF zu öffnen
 
-## [Klicke hier](./Aufgaben), um die Aufgaben des Selbststudiums zu öffnen
+## [Klicke hier](https://leonstoldt.github.io/edv-lecture/Aufgaben), um die Aufgaben (Selbststudium) zu öffnen
 
 ---
 
