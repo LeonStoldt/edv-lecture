@@ -1080,7 +1080,7 @@ Note:
 
 <!--v-->
 
-> Selbststudium (siehe [Aufgaben](./Aufgaben.md))
+> Selbststudium (siehe [Aufgaben](/Aufgaben))
 
 <!--h-->
 
@@ -1088,7 +1088,7 @@ Note:
 
 <!--v-->
 
-> Selbststudium (siehe [Aufgaben](./Aufgaben.md))
+> Selbststudium (siehe [Aufgaben](/Aufgaben))
 
 <!--h-->
 
