@@ -4,7 +4,7 @@
 
 ## [Klicke hier](./additional_files/slides.pdf), um die PDF zu öffnen
 
-## [Klicke hier](./additional_files/Excel-Uebungsblatt-ZUM-VERTEILEN.xlsx), um das Excel-Übungsblatt zu öffnen
+## [Klicke hier](./Aufgaben), um die Aufgaben des Selbststudiums zu öffnen
 
 ---
 
