@@ -89,12 +89,12 @@ Gehe hierbei besonders auf Unterstützung durch KI in bildgebenden Verfahren ein
  lesen und zusätzlich würde ich mind. eine der ausführlicheren Quellen empfehlen.
      
  Zeitschriftenartikel:
--   https://www.heise.de/ct/artikel/Kuenstlich-intelligente-Diagnose-als-zweite-Meinung-4547140.html
--   https://www.zeit.de/wissen/2019-09/kuenstliche-intelligenz-medizin-diagnose-krankheiten-bilddiagnostik
--   https://www.faz.net/aktuell/wissen/medizin-ernaehrung/bildgebende-diagnostik-ersetzt-die-kuenstliche-intelligenz-bald-den-arzt-15531347.html
--   https://www.kma-online.de/aktuelles/it-digital-health/detail/kuenstliche-intelligenz-wird-medizin-noch-besser-machen-a-42171
+-   [https://www.heise.de/ct/artikel/Kuenstlich-intelligente-Diagnose-als-zweite-Meinung-4547140.html](https://www.heise.de/ct/artikel/Kuenstlich-intelligente-Diagnose-als-zweite-Meinung-4547140.html)
+-   [https://www.zeit.de/wissen/2019-09/kuenstliche-intelligenz-medizin-diagnose-krankheiten-bilddiagnostik](https://www.zeit.de/wissen/2019-09/kuenstliche-intelligenz-medizin-diagnose-krankheiten-bilddiagnostik)
+-   [https://www.faz.net/aktuell/wissen/medizin-ernaehrung/bildgebende-diagnostik-ersetzt-die-kuenstliche-intelligenz-bald-den-arzt-15531347.html](https://www.faz.net/aktuell/wissen/medizin-ernaehrung/bildgebende-diagnostik-ersetzt-die-kuenstliche-intelligenz-bald-den-arzt-15531347.html)
+-   [https://www.kma-online.de/aktuelles/it-digital-health/detail/kuenstliche-intelligenz-wird-medizin-noch-besser-machen-a-42171](https://www.kma-online.de/aktuelles/it-digital-health/detail/kuenstliche-intelligenz-wird-medizin-noch-besser-machen-a-42171)
 
 "ausführlichere" Artikel:
--   https://link.springer.com/content/pdf/10.1007/s00117-019-00615-y.pdf
--   https://www.bigdata.fraunhofer.de/content/dam/bigdata/de/documents/Publikationen/Fraunhofer_Studie_ML_201809.pdf
--   https://radiologie.charite.de/fileadmin/user_upload/microsites/m_cc06/radiologie/Radiologie/Durchblick/2019_Mai/Durchblick_Ausgabe_1-2019.pdf
+-   [https://link.springer.com/content/pdf/10.1007/s00117-019-00615-y.pdf](https://link.springer.com/content/pdf/10.1007/s00117-019-00615-y.pdf)
+-   [https://www.bigdata.fraunhofer.de/content/dam/bigdata/de/documents/Publikationen/Fraunhofer_Studie_ML_201809.pdf](https://www.bigdata.fraunhofer.de/content/dam/bigdata/de/documents/Publikationen/Fraunhofer_Studie_ML_201809.pdf)
+-   [https://radiologie.charite.de/fileadmin/user_upload/microsites/m_cc06/radiologie/Radiologie/Durchblick/2019_Mai/Durchblick_Ausgabe_1-2019.pdf](https://radiologie.charite.de/fileadmin/user_upload/microsites/m_cc06/radiologie/Radiologie/Durchblick/2019_Mai/Durchblick_Ausgabe_1-2019.pdf)
