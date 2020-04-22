@@ -80,7 +80,7 @@ Fasse anschließend in einem Text zusammen, wie die Komponenten zusammenspielen 
 Gehe hierbei besonders auf Unterstützung durch KI in bildgebenden Verfahren ein.
  
  
- ### KI in der Medizin
+### KI in der Medizin
  
  Dieses Kapitel ist keine verpflichtende Aufgabe im Rahmen des Selbststudiums, **ABER** ich empfehle euch dringend über das Thema KI in der Medizin
  bzw. über den Einsatz von KI in eurem Berufszweig zu informieren. KI wird immer mehr erforscht und eingesetzt und wird immer alltäglicher
