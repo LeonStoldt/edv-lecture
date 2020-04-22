@@ -56,6 +56,9 @@ Fasse anschließend in einem Text zusammen, wie die Komponenten zusammenspielen 
 ### 5. Künstliche Intelligenz    
 
 > Hilfreiche Quellen:
+> 
+> (Die Quellen sind nach Priorität sortiert. Die ersten zwei bis vier Quellen sollten zur Beantwortung der Aufgaben ausreichen.
+> Die letzten beiden stehen zur Verfügung, falls man sich das Thema auf Deutsch anlesen möchte.)
 > - [https://towardsdatascience.com/notes-on-artificial-intelligence-ai-machine-learning-ml-and-deep-learning-dl-for-56e51a2071c2](https://towardsdatascience.com/notes-on-artificial-intelligence-ai-machine-learning-ml-and-deep-learning-dl-for-56e51a2071c2)
 > - [https://medium.com/mlait/what-is-al-ml-and-dl-c5c24093a005](https://medium.com/mlait/what-is-al-ml-and-dl-c5c24093a005)
 > - [https://towardsdatascience.com/clearing-the-confusion-ai-vs-machine-learning-vs-deep-learning-differences-fce69b21d5eb](https://towardsdatascience.com/clearing-the-confusion-ai-vs-machine-learning-vs-deep-learning-differences-fce69b21d5eb)
@@ -73,5 +76,25 @@ Fasse anschließend in einem Text zusammen, wie die Komponenten zusammenspielen 
 
 5.4 Erkläre kurz das allgemeine Grundprinzip von künstlicher Intelligenz in Bezug auf Daten und Muster bzw Regeln.
 
-5.5 Erkläre, inwiefern künstliche Intelligenz in deinem Berufsalltag unuterstützen kann. Gehe hierbei besonders auf Unterstützung durch KI in
- bildgegenden Verfahren ein.
+5.5 Erkläre, inwiefern künstliche Intelligenz in deinem Berufsalltag oder in der weiterführenden Diagnostik unuterstützen kann.
+Gehe hierbei besonders auf Unterstützung durch KI in bildgebenden Verfahren ein.
+ 
+ 
+ ### KI in der Medizin
+ 
+ Dieses Kapitel ist keine verpflichtende Aufgabe im Rahmen des Selbststudiums, **ABER** ich empfehle euch dringend über das Thema KI in der Medizin
+ bzw. über den Einsatz von KI in eurem Berufszweig zu informieren. KI wird immer mehr erforscht und eingesetzt und wird immer alltäglicher
+ - auch in Krankenhäusern, Praxen etc. Ich habe euch unten ein paar Quellen als Anreiz aufgelistet, die frei zugänglich sind und
+ über den Einsatz von KI in verschiedenen Bereichen z.B. Mammographie, Röntgen etc. berichten. Die Zeitschriftenartikel sind recht schnell zu
+ lesen und zusätzlich würde ich mind. eine der ausführlicheren Quellen empfehlen.
+     
+ Zeitschriftenartikel:
+-   https://www.heise.de/ct/artikel/Kuenstlich-intelligente-Diagnose-als-zweite-Meinung-4547140.html
+-   https://www.zeit.de/wissen/2019-09/kuenstliche-intelligenz-medizin-diagnose-krankheiten-bilddiagnostik
+-   https://www.faz.net/aktuell/wissen/medizin-ernaehrung/bildgebende-diagnostik-ersetzt-die-kuenstliche-intelligenz-bald-den-arzt-15531347.html
+-   https://www.kma-online.de/aktuelles/it-digital-health/detail/kuenstliche-intelligenz-wird-medizin-noch-besser-machen-a-42171
+
+"ausführlichere" Artikel:
+-   https://link.springer.com/content/pdf/10.1007/s00117-019-00615-y.pdf
+-   https://www.bigdata.fraunhofer.de/content/dam/bigdata/de/documents/Publikationen/Fraunhofer_Studie_ML_201809.pdf
+-   https://radiologie.charite.de/fileadmin/user_upload/microsites/m_cc06/radiologie/Radiologie/Durchblick/2019_Mai/Durchblick_Ausgabe_1-2019.pdf
