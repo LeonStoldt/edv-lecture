@@ -9,7 +9,7 @@
 Teilweise wurden diese Inhalte bereits in den einzelnen Gruppen unterrichtet. Wiederholt diese Inhalte bitte und versteht die grundsätzlichen Unterschiede und Codierungsweisen.
 
 ### 2. Hardware
-2.1 Bitte ladet die erarbeiteten Präsentationen zum Thema "Hardware" auf moodle hoch. Lese dir alle anderen Präsentationen durch und entwickle ein
+2.1 Bitte ladet die erarbeiteten Präsentationen zum Thema "Hardware" in Teams hoch. Lese dir alle anderen Präsentationen durch und entwickle ein
  Grundverständnis für die Komponenten des Systems.
 Fasse anschließend in einem Text zusammen, wie die Komponenten zusammenspielen und ordne sie jeweils in die Schichten eines Computers ein.
  
