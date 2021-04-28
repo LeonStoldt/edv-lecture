@@ -44,7 +44,7 @@
     "try-require": "1.2.1",
     "update-notifier": "3.0.1",
     "yaml-front-matter": "4.0.0",
-    "yargs-parser": "14.0.0"
+    "yargs-parser": "15.0.1"
   },
   "optionalDependencies": {
     "puppeteer": "1.19.0"
